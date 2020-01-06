@@ -1,11 +1,13 @@
 require('dotenv').config({
-  path: `.env.${process.env.NODE_ENV}`
+  path: `.env.${process.env.NODE_ENV}`,
 })
 
 const contentfulConfig = {
-  spaceId: process.env.CONTENTFUL_SPACE_ID,
-  accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
-  host: process.env.CONTENTFUL_HOST
+  spaceId: 'dwuu8h33boxw',
+  accessToken: 'NkCKgClNJGbnus4LYyqSwHNYEtYoC6ENgX3Mt9Tt65g',
+  //spaceId: process.env.CONTENTFUL_SPACE_ID,
+  //accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+  host: process.env.CONTENTFUL_HOST,
 }
 
 const { spaceId, accessToken } = contentfulConfig
@@ -26,9 +28,10 @@ module.exports = {
     'gatsby-transformer-sharp',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sharp',
+    'gatsby-plugin-sass',
     {
       resolve: 'gatsby-source-contentful',
       options: contentfulConfig,
-    }
+    },
   ],
 }
