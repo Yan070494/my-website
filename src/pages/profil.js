@@ -1,15 +1,16 @@
 import React from 'react'
-import 'bulma'
 import './global-style.scss'
-//import "bulma-divider"
+import FontAwesome from 'react-fontawesome'
 import Header from '../components/header'
 import Footer from '../components/footer'
+import Head from '../components/head'
 import Tiles from '../components/tiles'
 import PortraitProfil from '../images/photo-profil-placeholder.jpg'
 
 const ProfilePage = () => {
   return (
     <div class="content">
+      <Head />
       <Header />
       <section class="hero is-small is-primary is-bold">
         <div class="hero-body">

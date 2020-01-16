@@ -1,7 +1,9 @@
-import React from "react"
-import "./global-style.scss"
-import Header from "../components/header"
-import { Link } from "gatsby"
+import React from 'react'
+import './global-style.scss'
+import Header from '../components/header'
+import { Link } from 'gatsby'
+import FontAwesome from 'react-fontawesome'
+import Head from '../components/head'
 
 const IndexPage = () => {
   return (
