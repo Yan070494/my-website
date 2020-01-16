@@ -9,6 +9,7 @@ import Head from '../../components/head'
 const UnitedManagersPage = () => {
   return (
     <div class="content">
+      <Head />
       <section class="hero hero-bg is-medium">
         <div class="hero-head"></div>
         <Header active="0" />

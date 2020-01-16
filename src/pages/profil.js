@@ -29,51 +29,88 @@ const ProfilePage = () => {
             <div class="column is-two-third">
               <h2 class="title">Pour faire court ...</h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
+                Je suis Yanis Abounacer, j'ai 25 ans et je vous remercie d'avoir
+                pris le temps de visiter mon site internet ! Dans les grandes
+                lignes je suis Chef de Projet Informatique et entrepreneur à
+                Caen, en Normandie. J'ai une formation de musicien (piano,
+                chant, solfège, informatique musicale), j'adore les jeux vidéo,
+                le cinéma, la littérature et la cuisine !
               </p>
               <h3 class="title">
                 <span class="date-title">2009 - 2012</span> • Licence en
                 informatique
               </h3>
               <p>
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat non proident, sunt in culpa qui officia deserunt
-                mollit anim id est laborum.
+                Durant 3 ans, j'ai appris les bases de l'informatique et des
+                langages haut niveau comme le HTML, CSS, JavaScript et Python. À
+                la fin de la licence, j'avais toutes les bases de la
+                programmation orientée objet, la gestion de base de données et
+                des notions dans les langages bas niveau comme le C.
               </p>
               <h3 class="title">
                 <span class="date-title">2009 - 2012</span> • Master en
                 informatique
               </h3>
               <p>
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat non proident, sunt in culpa qui officia deserunt
-                mollit anim id est laborum.
+                Il a ensuite fallu choisir une spécialité et la versatilité du
+                web m'a poussé à choisir un Master sur le sujet. J'ai appris
+                comment bâtir un framework web, optimiser le référencement d'un
+                site internet, comprendre les mécanismes de fonctionnement des
+                moteurs de recherche et produire des interfaces web dans des
+                clients lourds.
+              </p>
+              <p>
+                Vous souhaitez en savoir plus sur la suite de mon parcours ?
+                Découvrez les projets que j'ai accompagné !
               </p>
               <div class="columns">
                 <div class="column is-half">
                   <div id="skills">
                     <div class="skillbar">
                       <div id="HTML">
-                        <span class="skill-area ">HTML</span>
+                        <span class="skill-area ">HTML - CSS</span>
                         <span class="separator">•</span>
                         <span class="percent-text ">100%</span>
                       </div>
                     </div>
                     <div class="skillbar">
-                      <div id="CSS">
-                        <span class="skill-area ">CSS/CSS3</span>
+                      <div id="JS">
+                        <span class="skill-area ">JavaScript</span>
                         <span class="separator">•</span>
                         <span class="PercentText ">70%</span>
                       </div>
                     </div>
                     <div class="skillbar">
-                      <div id="jQuery">
-                        <span class="skill-area ">jQuery</span>
+                      <div id="PHP">
+                        <span class="skill-area ">PHP</span>
+                        <span class="separator">•</span>
+                        <span class="PercentText ">40%</span>
+                      </div>
+                    </div>
+                    <div class="skillbar">
+                      <div id="Python">
+                        <span class="skill-area ">Python</span>
+                        <span class="separator">•</span>
+                        <span class="PercentText ">40%</span>
+                      </div>
+                    </div>
+                    <div class="skillbar">
+                      <div id="MySQL">
+                        <span class="skill-area ">MySQL</span>
+                        <span class="separator">•</span>
+                        <span class="PercentText ">40%</span>
+                      </div>
+                    </div>
+                    <div class="skillbar">
+                      <div id="MongoDB">
+                        <span class="skill-area ">MongoDB</span>
+                        <span class="separator">•</span>
+                        <span class="PercentText ">40%</span>
+                      </div>
+                    </div>
+                    <div class="skillbar">
+                      <div id="C#">
+                        <span class="skill-area ">C#</span>
                         <span class="separator">•</span>
                         <span class="PercentText ">40%</span>
                       </div>
@@ -86,13 +123,16 @@ const ProfilePage = () => {
                       <p>Frameworks</p>
                       <div class="columns">
                         <div class="column">
-                          <p>Node</p>
+                          <p>React</p>
                         </div>
                         <div class="column">
-                          <p>Node</p>
+                          <p>Gatsby</p>
                         </div>
                         <div class="column">
-                          <p>Node</p>
+                          <p>Bulma</p>
+                        </div>
+                        <div class="column">
+                          <p>Laravel</p>
                         </div>
                       </div>
                     </div>
@@ -100,43 +140,40 @@ const ProfilePage = () => {
                       <p>Outils créatifs</p>
                       <div class="columns">
                         <div class="column">
-                          <p>Node</p>
+                          <p>Adobe Creative Suite</p>
                         </div>
                         <div class="column">
-                          <p>Node</p>
+                          <p>Paint.net</p>
                         </div>
                         <div class="column">
-                          <p>Node</p>
+                          <p>Cubase</p>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="columns">
                     <div class="column">
-                      <p>Frameworks</p>
+                      <p>Outils de développement</p>
                       <div class="columns">
                         <div class="column">
-                          <p>Node</p>
+                          <p>Visual Studio / Code</p>
                         </div>
                         <div class="column">
-                          <p>Node</p>
-                        </div>
-                        <div class="column">
-                          <p>Node</p>
+                          <p>GitHub</p>
                         </div>
                       </div>
                     </div>
                     <div class="column">
-                      <p>Outils créatifs</p>
+                      <p>Outils de gestion de projet</p>
                       <div class="columns">
                         <div class="column">
-                          <p>Node</p>
+                          <p>Project</p>
                         </div>
                         <div class="column">
-                          <p>Node</p>
+                          <p>Office 365</p>
                         </div>
                         <div class="column">
-                          <p>Node</p>
+                          <p>Miro</p>
                         </div>
                       </div>
                     </div>

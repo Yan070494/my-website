@@ -24,85 +24,51 @@ const ProjectPage = () => {
         <div class="container">
           <h2 class="title">Des jeux, de l'information et du progiciel</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            Depuis 2013, j'accompagne des entreprises et des porteurs de projets
+            dans la concrétisation de leurs objectifs. Afin de pouvoir se
+            concentrer sur le coeur du travail, de l'expertise et du savoir
+            faire, il est indispensable de disposer des méthodes, processus et
+            outils adaptés. S'ils ne se substituent en aucun cas à un suivi de
+            projet et des conseils avisés, ils sont de vrais facilitateurs. Leur
+            rôle est avant tout de décharger les acteurs du projet de tout le
+            poids du suivi et de la gestion pour se concentrer sur ce qui compte
+            vraiment: Achever plus, Achever mieux, Achever ensemble.
+          </p>
+          <p>
+            J'ai pu m'essayer à différentes solutions, certaines vraiment
+            convaincantes, d'autres réservées à des usages très spécifiques.
+            Dans tous les cas, il y a des incontournables que je partage ici,
+            libre à vous d'en faire ce que vous voudrez !
           </p>
         </div>
       </section>
-      <section class="section">
-        <div class="container">
-          <div class="columns">
-            <div class="column">
-              <h2 class="title">Méthodes</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
-              </p>
-              <button class="button">Voir les fiches méthode</button>
-            </div>
-            <div class="column">
-              <h2 class="title">Processus</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
-              </p>
-              <button class="button">Voir les fiches processus</button>
-            </div>
-            <div class="column">
-              {' '}
-              <h2 class="title">Outils</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
-              </p>
-              <button class="button">Voir les fiches outils</button>
-            </div>
-          </div>
-        </div>
-      </section>
+
       <section class="section">
         <div class="container">
           <h2 class="title">3 projets, 3 démarches</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            Pour mieux comprendre comment tout cela s'applique en situation
+            réelle, je vous dévoile 3 projets auxquels j'ai participé et comment
+            j'ai répondu aux problématiques qui se sont présentés à l'aide des
+            méthodes, processus et outils.
           </p>
-          <div class="columns has-text-centered">
-            <div class="column">
-              <h2 class="title">LDLC</h2>
-            </div>
-            <div class="column">
-              <h2 class="title">United Managers</h2>
-            </div>
-            <div class="column">
-              <h2 class="title">CrossPlay</h2>
-            </div>
-          </div>
         </div>
       </section>
       <section class="section">
         <div class="container">
-          <h2 class="title">Un cadeau pour démarrer</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
-          </p>
-          <button class="button">Récupérer le cadeau</button>
+          <h2 class="title">United Managers</h2>
         </div>
       </section>
-
+      <section class="section">
+        <div class="container">
+          <h2 class="title">LDLC</h2>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <h2 class="title">CrossPlay</h2>
+        </div>
+      </section>
       <Footer />
     </div>
   )

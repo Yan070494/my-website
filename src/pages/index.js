@@ -10,6 +10,7 @@ const IndexPage = () => {
     <div class="content">
       <section class="hero hero-bg is-fullheight">
         <div class="hero-head"></div>
+        <Head />
         <Header active="0" />
         <div class="hero-body">
           <div class="container">

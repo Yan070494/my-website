@@ -39,33 +39,26 @@ export default () => (
               <span class="icon is-medium">
                 <i class="fas fa-star"></i>
               </span>
-              <span>Construire un projet</span>
+              <span>Projets</span>
             </a>
             <div class="navbar-dropdown is-boxed">
-              <a class="navbar-item" href="/projets/methodes/">
+              <a class="navbar-item" href="/projets/unitedmanagers/">
                 <span class="icon is-medium">
-                  <i class="fas fa-th-list"></i>
+                  <i class="fas fa-futbol"></i>
                 </span>
-                <span>Méthodes</span>
+                <span>United Managers</span>
               </a>
-              <a class="navbar-item" href="/projets/processus/">
+              <a class="navbar-item" href="/projets/ldlc/">
                 <span class="icon is-medium">
-                  <i class="fas fa-project-diagram"></i>
+                  <i class="fas fa-desktop"></i>
                 </span>
-                <span>Processus</span>
+                <span>LDLC</span>
               </a>
-              <a class="navbar-item" href="/projets/outils/">
+              <a class="navbar-item" href="/projets/crossplay/">
                 <span class="icon is-medium">
-                  <i class="fas fa-toolbox"></i>
+                  <i class="fas fa-gamepad"></i>
                 </span>
-                <span>Outils</span>
-              </a>
-              <hr class="navbar-divider" />
-              <a class="navbar-item" href="/projets/missions">
-                <span class="icon is-medium">
-                  <i class="fas fa-trophy"></i>
-                </span>
-                <span>Missions réelles</span>
+                <span>CrossPlay</span>
               </a>
             </div>
           </div>

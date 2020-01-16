@@ -1,4 +1,4 @@
-import React from "react"
+import React from 'react'
 
 export default () => (
   // Ancestor tile
@@ -10,7 +10,18 @@ export default () => (
         <article class="tile is-child box">
           <h2 class="title">Yanis Abounacer</h2>
           <p>25 ans</p>
-          <p>Permis B</p>
+
+          <div class="columns">
+            <div class="column">
+              <p>LinkedIn</p>
+            </div>
+            <div class="column">
+              <p>Facebook</p>
+            </div>
+            <div class="column">
+              <p>Twitter</p>
+            </div>
+          </div>
         </article>
       </div>
       {/* Bottom tile group */}
