@@ -8188,7 +8188,7 @@ lodash.mergewith@^4.6.1:
   resolved "https://registry.yarnpkg.com/lodash.mergewith/-/lodash.mergewith-4.6.2.tgz#617121f89ac55f59047c7aec1ccd6654c6590f55"
   integrity sha512-GK3g5RPZWTRSeLSpgP8Xhra+pnjBC56q9FZYe1d5RN3TJ35dbkGy3YqBSMbyCrlbi+CM9Z3Jk5yTL7RCsqboyQ==
 
-lodash.throttle@^4.1.1:
+lodash.throttle@4.1.1, lodash.throttle@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/lodash.throttle/-/lodash.throttle-4.1.1.tgz#c23e91b710242ac70c37f1e1cda9274cc39bf2f4"
   integrity sha1-wj6RtxAkKscMN/HhzaknTMOb8vQ=
@@ -10741,6 +10741,13 @@ react-side-effect@^1.1.0:
   integrity sha512-v1ht1aHg5k/thv56DRcjw+WtojuuDHFUgGfc+bFHOWsF4ZK6C2V57DO0Or0GPsg6+LSTE0M6Ry/gfzhzSwbc5w==
   dependencies:
     shallowequal "^1.0.1"
+
+react-skillbars@^1.5.1:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/react-skillbars/-/react-skillbars-1.5.1.tgz#be7f2c18532456cce6ff06252163636c68a79e66"
+  integrity sha512-haXeSxaQb0ec7SgzYQhPx/uLDCSe7orztCykGo78QDdEiNUUWPXBph+Fo+tukEVqIah3vlox9Ye9EBFBxRl6pw==
+  dependencies:
+    lodash.throttle "4.1.1"
 
 react@^16.12.0:
   version "16.12.0"

@@ -16,13 +16,25 @@ const IndexPage = () => {
           <div class="container">
             <div class="columns">
               <div class="column is-half">
-                <p class="title">Hello, je suis Yanis Abounacer!</p>
+                <p class="title is-size-1">Hello, je suis Yanis !</p>
                 <p class="subtitle">Comment puis-je vous aider ?</p>
                 <Link to="/profil">
-                  <button class="button">Mon profil</button>
+                  <button class="button is-primary">
+                    <span class="icon is-medium">
+                      <i class="fas fa-smile"></i>
+                    </span>
+                    <span>&nbsp;</span>
+                    Mon profil
+                  </button>
                 </Link>
+                <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
                 <Link to="/projets">
-                  <button class="button">Mes projets</button>
+                  <button class="button">
+                    <span class="icon is-medium">
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>&nbsp;</span>Mes projets
+                  </button>
                 </Link>
               </div>
             </div>

@@ -6,12 +6,7 @@ export default () => (
     <div class="container">
       <div class="navbar-brand">
         <Link to="/" class="navbar-item" activeClassName="navbar-item">
-          <figure class="image">
-            <img
-              src="https://bulma.io/images/bulma-type-white.png"
-              alt="Logo"
-            />
-          </figure>
+          <p class="is-size-5">Yanis Abounacer</p>
         </Link>
         <span class="navbar-burger burger" data-target="navbarMenuHeroB">
           <span></span>
@@ -29,14 +24,14 @@ export default () => (
             <span class="icon is-medium has-text-primary">
               <i class="fas fa-smile"></i>
             </span>
-            <span>Mon profil</span>
+            <span>Profil</span>
           </Link>
           <div
             class="navbar-item has-dropdown is-hoverable"
             activeClassName="is-active navbar-item"
           >
             <a class="navbar-link" href="/projets">
-              <span class="icon is-medium">
+              <span class="icon is-medium has-text-warning">
                 <i class="fas fa-star"></i>
               </span>
               <span>Projets</span>
@@ -68,7 +63,7 @@ export default () => (
             class="navbar-item"
             activeClassName="is-active navbar-item"
           >
-            <span class="icon is-medium">
+            <span class="icon is-medium has-text-info">
               <i class="fas fa-comment-dots"></i>
             </span>
             <span>Blog</span>

@@ -7,22 +7,28 @@ export default () => (
     <div class="tile is-4 is-vertical">
       {/* Top tile group */}
       <div class="tile is-parent">
-        <article class="tile is-child box">
-          <h2 class="title">Yanis Abounacer</h2>
-          <p>25 ans</p>
+        <div class="card">
+          <div class="card-image">
+            <figure class="image  is-marginless">
+              <img src={PortraitProfil} alt="Placeholder image" />
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">John Smith</p>
+                <p class="subtitle is-6">@johnsmith</p>
+              </div>
+            </div>
 
-          <div class="columns">
-            <div class="column">
-              <p>LinkedIn</p>
-            </div>
-            <div class="column">
-              <p>Facebook</p>
-            </div>
-            <div class="column">
-              <p>Twitter</p>
+            <div class="content">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+              nec iaculis mauris. <a>@bulmaio</a>.<a href="#">#css</a>{' '}
+              <a href="#">#responsive</a>
+              <br />
             </div>
           </div>
-        </article>
+        </div>
       </div>
       {/* Bottom tile group */}
       <div class="tile">
@@ -49,11 +55,11 @@ export default () => (
     {/* Second tile group */}
     <div class="tile is-4 is-parent is-vertical">
       {/* Top tile */}
-      <article class="tile box">
+      <article class="tile box is-paddingless">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41725.392770790546!2d-0.40727831329921593!3d49.18467865755685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480a42bd4c04c933%3A0x3da5749f30d00859!2s14000%20Caen!5e0!3m2!1sfr!2sfr!4v1577974165510!5m2!1sfr!2sfr"
           width="600"
-          height="300"
+          height="100%"
           frameborder="1"
           allowfullscreen=""
           title="Caen"
