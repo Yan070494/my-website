@@ -115,8 +115,13 @@ const ProfilePage = () => {
       <Header />
       <img src={PortraitProfil} />
       <section class="section">
-        <div class="container">
-          <h1>Je suis heureux de vous rencontrer !</h1>
+        <div class="container has-text-centered">
+          <h1 class="title is-size-1">
+            "Dans le futur, les leaders seront ceux qui savent donner le pouvoir
+            aux autres."
+          </h1>
+          <p class="is-size-4">Bill Gates, Fondateur de Microsoft</p>
+          <hr />
         </div>
       </section>
       <section class="section">
