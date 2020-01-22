@@ -7,8 +7,10 @@ import { Link } from 'gatsby'
 import Head from '../../components/head'
 
 // Images
-import PhotoEquipe from '../../images/projets/UnitedManagers/equipe.jpg'
-import HeroBackground from '../../images/projets/UnitedManagers/unitedmanagers-hero-background.png'
+import PhotoEquipe from '../../images/projets/unitedmanagers/equipe.jpg'
+import HeroBackground from '../../images/projets/unitedmanagers/unitedmanagers-hero.png'
+
+//Carousel
 
 const UnitedManagersPage = () => {
   return (
@@ -22,7 +24,7 @@ const UnitedManagersPage = () => {
         <div class="container">
           <h2 class="title">Le projet</h2>
           <hr />
-          <div class="columns">
+          <div class="columns is-variable is-8">
             <div class="column">
               <p class="is-size-5">
                 United Managers est un projet d'envergure à la croisée des
@@ -41,7 +43,7 @@ const UnitedManagersPage = () => {
                 lancé en 2018.
               </p>
             </div>
-            <div class="column has-text-centered box is-paddingless">
+            <div class="column has-text-centered">
               <img
                 src={PhotoEquipe}
                 alt="Équipe Avant-Garde Caennaise by United Managers"
@@ -59,13 +61,20 @@ const UnitedManagersPage = () => {
       </section>
       <section class="section ">
         <div class="container">
-          <h2 class="title has-text-centered">Les missions</h2>
+          <div class="columns ">
+            <div class="column">
+              <h2 class="title has-text-centered">Les missions</h2>
+            </div>
+            <div class="column">
+              <h2 class="title has-text-centered">La méthode</h2>
+            </div>
+          </div>
           <hr class="is-marginless" />
         </div>
       </section>
       <section class="section">
         <div class="container">
-          <div class="columns">
+          <div class="columns is-variable is-8">
             <div class="column">
               <h3>1. Comprendre les attentes</h3>
               <p class="subtitle">
@@ -78,13 +87,23 @@ const UnitedManagersPage = () => {
                 workshops de travail et explorer les idées à mettre en oeuvre.
               </p>
             </div>
-            <div class="column"></div>
+            <div class="column">
+              <h3 class="title">Organiser un workshop</h3>
+              <p>
+                Un workshop consiste en une session de travail à durée
+                déterminée durant laquelle une ou plusieurs personnes cherchent
+                à déterminer la meilleure réponse à une question. À l'aide
+                d'activités agiles comme le post-up, le brainstorming et le
+                vote, il est possible d'aboutir à une proposition de valeur et
+                un business modèle cohérent.
+              </p>
+            </div>
           </div>
         </div>
       </section>
       <section class="section">
         <div class="container">
-          <div class="columns">
+          <div class="columns is-variable is-8">
             <div class="column">
               <h3>2. Définir des objectifs</h3>
               <p class="subtitle">
@@ -98,13 +117,22 @@ const UnitedManagersPage = () => {
                 qui compte vraiment.
               </p>
             </div>
-            <div class="column"></div>
+            <div class="column">
+              <h3 class="title">Construire un backlog</h3>
+              <p>
+                Le backlog agile permet de connecter les équipes informatiques
+                aux attentes du client. Il s'agit d'un document unique où toutes
+                les fonctionnalités sont clairement décrites, documentés et
+                priorisés. Il évolue au fil du temps selon l'avancée de l'équipe
+                de développement.
+              </p>
+            </div>
           </div>
         </div>
       </section>
       <section class="section">
         <div class="container">
-          <div class="columns">
+          <div class="columns is-variable is-8">
             <div class="column">
               <h3>3. Planifier le projet</h3>
               <p class="subtitle">
@@ -118,13 +146,23 @@ const UnitedManagersPage = () => {
                 projet plus facile à suivre pour toute l'équipe.
               </p>
             </div>
-            <div class="column"></div>
+            <div class="column">
+              <h3 class="title">Créer des sprints</h3>
+              <p>
+                Un sprint est correspond à une période de temps dédié à
+                l'accomplissement d'un ou plusieurs objectifs. Les sprints
+                permettent de maîtrise l'avancée du développement et d'opérer
+                des changements dans la direction de projet sans casser le
+                travail accompli. Les sprints dépendent directement des
+                priorités indiquées dans le backlog.
+              </p>
+            </div>
           </div>
         </div>
       </section>
       <section class="section">
         <div class="container">
-          <div class="columns">
+          <div class="columns is-variable is-8">
             <div class="column">
               <h3>4. Valider le socle technologique</h3>
               <p class="subtitle">
@@ -139,13 +177,24 @@ const UnitedManagersPage = () => {
                 spécialisés.
               </p>
             </div>
-            <div class="column"></div>
+            <div class="column">
+              <h3 class="title">Prototyper et itérer</h3>
+              <p>
+                Le prototypage permet au client de voir son concept à l'oeuvre
+                de la façon la plus rudimentaire et rapide possible. Pour
+                l'équipe de développement, c'est un moyen peu couteux d'éprouver
+                une technologie et de valider un produit minimum viable. Durant
+                la phase de prototypage, plusieurs prototypes sont créés avec
+                des corrections et améliorations. Chaque version correspond à
+                une itération.
+              </p>
+            </div>
           </div>
         </div>
       </section>
       <section class="section">
         <div class="container">
-          <div class="columns">
+          <div class="columns is-variable is-8">
             <div class="column">
               <h3>5. Collaborer au Game Design</h3>
               <p class="subtitle">
@@ -159,7 +208,17 @@ const UnitedManagersPage = () => {
                 système de récompenses de United Managers
               </p>
             </div>
-            <div class="column"></div>
+            <div class="column">
+              <h3 class="title">Playtester et simuler</h3>
+              <p>
+                Créer un système jeu avec des objectifs de rétentions implique
+                de tester régulièrement le système en conditions réelles.
+                Plusieurs systèmes différents basés sur les règles du football,
+                les choix d'un entraîneur professionnel et les principes de game
+                design du jeu de rôle et simulation ont servis de base au
+                travail accompli pour United Managers.
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -179,7 +238,17 @@ const UnitedManagersPage = () => {
                 virtuelle.
               </p>
             </div>
-            <div class="column"></div>
+            <div class="column">
+              <h3 class="title">Créer des personas</h3>
+              <p>
+                Le modèle économique dépend de la cible visée et des attentes du
+                client. Il a donc fallu se projeter sur le profil des joueurs
+                visés par United Managers et analyser les modèles économiques
+                les plus susceptibles de générer des revenus. Pas moins d'une
+                dizaine de modèles différents ont été construits avant de mettre
+                en place celui utilisé actuellement.
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -197,7 +266,18 @@ const UnitedManagersPage = () => {
                 travail sur l'expérience et les interfaces poussé.
               </p>
             </div>
-            <div class="column"></div>
+            <div class="column">
+              <h3 class="title">Envisager l'expérience comme un flux</h3>
+              <p>
+                L'ensemble des interfaces et interactions constituent un flux de
+                pensées et d'émotions qu'il nous faut maîtriser à toute les
+                étapes de l'expérience. L'utilisateur doit avoir accès aux
+                informations qui sont importantes pour lui sans se sentir
+                innondé. Dès lors, l'expérience n'est plus une suite d'écran
+                mais un flux continue d'informations qui doivent être
+                structurées en fonction du contexte.
+              </p>
+            </div>
           </div>
         </div>
       </section>
