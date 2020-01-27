@@ -23,12 +23,13 @@ const CrossPlayPage = () => {
           <h2 class="title">Le projet</h2>
           <hr />
           <div class="columns is-variable is-8">
-            <div class="column">
+            <div class="column is-half">
               <p class="is-size-5">
-                CrossPlay est un site web traitant des jeux vidéo et de la
-                technologie où tous les contributeurs sont des gens comme vous
-                et moi. Pas de journalistes, une ligne éditoriale libre et des
-                opinions qui n'engagent que les auteurs des articles.
+                CrossPlay est un site web, dont je suis le fondateur, traitant
+                des jeux vidéo et de la technologie où tous les contributeurs
+                sont des gens comme vous et moi. Pas de journalistes, une ligne
+                éditoriale libre et des opinions qui n'engagent que les auteurs
+                des articles.
               </p>
               <p class="is-size-5">
                 Toute la force du concept réside dans la capacité de l'équipe à
@@ -36,17 +37,31 @@ const CrossPlayPage = () => {
                 d'expérimentations. Sur les réseaux sociaux, YouTube ou les
                 plateforme de livestreaming, l'équipe de CrossPlay teste et
                 apprend depuis 3 ans au travers de nouveaux contenus
-                hebdomadaires. Aujourd'hui, la plateforme dénombre plus de 12
-                500 visiteurs chaque année.
+                hebdomadaires.
+              </p>
+              <p class="is-size-5">
+                Aujourd'hui, la plateforme dénombre plus de 12 500 visiteurs
+                chaque année dans le monde entier.
               </p>
             </div>
             <div class="column has-text-centered">
+              <iframe
+                width="100%"
+                height="100%"
+                src="https://www.youtube-nocookie.com/embed/KNxBrkVZKrs"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
               <span class="subtitle is-size-6">
                 Photo officielle de{' '}
                 <a href="https://www.agcaenfootball.com/">
                   l'équipe de Football de l'Avant-Garde Caennaise
                 </a>{' '}
-                by <a href="https://app.unitedmanagers.com/">United Managers</a>
+                by{' '}
+                <a href="https://app.unitedmanagers.com/" target="_blank">
+                  United Managers
+                </a>
               </span>
             </div>
           </div>
@@ -69,26 +84,27 @@ const CrossPlayPage = () => {
         <div class="container">
           <div class="columns is-variable is-8">
             <div class="column">
-              <h3>1. Comprendre les attentes</h3>
-              <p class="subtitle">
-                Pourquoi vouloir confier la gestion d'une équipe à une
-                communauté en ligne ?
-              </p>
+              <h3>1. Recruter une équipe de contributeurs</h3>
+              <p class="subtitle">Comment impliquer une équipe bénévole ?</p>
               <p>
-                La question peut sembler simple, mais elle amène des réponses
-                complexes. C'est à ce moment que nous avons pu organiser des
-                workshops de travail et explorer les idées à mettre en oeuvre.
+                CrossPlay n'est pas une entité légale. Il ne s'agit pas d'une
+                société, d'une association ou même d'une marque. Tous ceux qui
+                participent le font volontairement, sans contre-partie sur leur
+                temps libre et avec leurs moyens. Bâtir et engager une équipe
+                dans ces conditions peut sembler impossible, pourtant, c'est ce
+                que nous faisons depuis 3 ans maintenant.
               </p>
             </div>
             <div class="column">
-              <h3 class="title">Organiser un workshop</h3>
+              <h3 class="title">Donner à chacun le pouvoir d'en faire plus</h3>
               <p>
-                Un workshop consiste en une session de travail à durée
-                déterminée durant laquelle une ou plusieurs personnes cherchent
-                à déterminer la meilleure réponse à une question. À l'aide
-                d'activités agiles comme le post-up, le brainstorming et le
-                vote, il est possible d'aboutir à une proposition de valeur et
-                un business modèle cohérent.
+                Un passionné ne compte ni son temps, ni son énergie. Dès lors,
+                l'impliquer consiste à trouver un moyen pour lui de se réaliser
+                au travers d'une mission motivante et ambitieuse. Créer un
+                programme, défendre son point de vue, publier du contenu sont
+                autant de récompenses pour quiquonque se passionne pour un
+                sujet. Les obstacles restants sont techniques ou financiers :
+                des aspects faciles à contourner avec beaucoup de motivation.
               </p>
             </div>
           </div>
@@ -98,26 +114,35 @@ const CrossPlayPage = () => {
         <div class="container">
           <div class="columns is-variable is-8">
             <div class="column">
-              <h3>2. Définir des objectifs</h3>
-              <p class="subtitle">
-                Qu'est-ce qu'est United Managers et comment parvenir à ce
-                résultat ?
+              <h3>2. Créer le site internet</h3>
+              <p class="subtitle">Quel est l'objectif du site ?</p>
+              <p>
+                Au sein de l'équipe, nous sommes tous technophiles ou
+                informaticiens professionnel. Créer un site internet ne
+                représente pas un défi majeur. Pourtant, nous avons choisi
+                d'utiliser un CMS plutôt que de créer notre propre plateforme.
               </p>
               <p>
-                À partir d'ici, le travail en agilité a permis la réalisation
-                d'un backlog de projet où chaque élément était clairement
-                défini. C'est un outil indispensable pour donner priorité à ce
-                qui compte vraiment.
+                De cette façon, nous pouvons plus facilement nous concentrer sur
+                le contenu et moins sur la technique. Nos visiteurs ne viennent
+                pas pour voir une vitrine technologique, il vienne lire, voir et
+                intéragir avec nos contenus.
               </p>
             </div>
             <div class="column">
-              <h3 class="title">Construire un backlog</h3>
+              <h3 class="title">Exploiter des technologies éprouvées</h3>
               <p>
-                Le backlog agile permet de connecter les équipes informatiques
-                aux attentes du client. Il s'agit d'un document unique où toutes
-                les fonctionnalités sont clairement décrites, documentés et
-                priorisés. Il évolue au fil du temps selon l'avancée de l'équipe
-                de développement.
+                L'excellence technologique n'est pas l'objectif d'un média
+                d'opinion. C'est la raison pour laquelle nous avons choisi
+                d'utiliser toutes les technologies existantes à notre
+                disposition plutôt que de réinventer ce qui existe déjà.
+              </p>
+              <p>
+                Le temps passé sur le site a d'abord servi à créer une identité
+                graphique, choisir la ligne éditorial et produire des contenus
+                que nous ne trouvions pas ailleurs. Aujourd'hui, nous continuons
+                d'utiliser l'existant dans nos nouveaux programmes mais chaque
+                format est conçu de toute pièce par nos soins.
               </p>
             </div>
           </div>
@@ -127,27 +152,37 @@ const CrossPlayPage = () => {
         <div class="container">
           <div class="columns is-variable is-8">
             <div class="column">
-              <h3>3. Planifier le projet</h3>
+              <h3>3. Promouvoir nos contenus sur les réseaux sociaux</h3>
               <p class="subtitle">
-                Comment exploiter au mieux les ressources à notre disposition ?
+                Quelle stratégie sociale pour atteindre nos lecteurs ?
               </p>
               <p>
-                Le temps, l'argent, l'énergie sont autant de ressources
-                précieuses qu'il faut investir dans la création de valeur.
-                Planifier l'usage des ressources, découper le travail en
-                sprints, définir des milestones sont autant d'étapes vers un
-                projet plus facile à suivre pour toute l'équipe.
+                Les contenus seuls ne seront pas suffisant pour attirer de
+                nouveaux lecteurs. Nous avons besoin de créer une communauté et
+                de partager des temps forts avec elle. C'est la raison pour
+                laquelle nous alimentons régulièrement nos pages sociales, non
+                seulement avec nos contenus, mais également avec tout ce qui
+                nous intéresse à titre personnel.
               </p>
             </div>
             <div class="column">
-              <h3 class="title">Créer des sprints</h3>
+              <h3 class="title">
+                Donner des directions plutôt que tout planifier
+              </h3>
               <p>
-                Un sprint est correspond à une période de temps dédié à
-                l'accomplissement d'un ou plusieurs objectifs. Les sprints
-                permettent de maîtrise l'avancée du développement et d'opérer
-                des changements dans la direction de projet sans casser le
-                travail accompli. Les sprints dépendent directement des
-                priorités indiquées dans le backlog.
+                Notre stratégie sociale a consisté pendant longtemps à planifier
+                la publication de contenus des semaines en avance. Nous avions
+                une routine et l'appliquions rigoureusement. Cette stratégie a
+                fonctionné quelques temps avant de s'éssoufler.
+              </p>
+              <p>
+                Nous avons donc discuté et en sommes arrivés à la conclusion que
+                notre manque de spontanéité nuisait à notre visibilité. En
+                réaction, nous avons mis en place une nouvelle stratégie :
+                chaque contributeur dispose d'un accès à nos pages sociales et
+                peut librement publier du contenu qui a retenu son attention.
+                Les résultats sont impressionnants et la charge de travail bien
+                moins élevée pour tout le monde.
               </p>
             </div>
           </div>
@@ -157,29 +192,33 @@ const CrossPlayPage = () => {
         <div class="container">
           <div class="columns is-variable is-8">
             <div class="column">
-              <h3>4. Valider le socle technologique</h3>
-              <p class="subtitle">
-                Quels sont les besoins techniques du projet ?
+              <h3>4. Créer des formats</h3>
+              <p class="subtitle">Qu'avons-nous envie de faire ?</p>
+              <p>
+                Cette question pilote l'ensemble de nos activités. Nous faisons
+                ce qui nous intéresse plutôt que de suivre les vagues de
+                l'actualité. Nos formats évoluent régulièrement selon les
+                retours des lecteurs mais aussi des contributeurs.
               </p>
               <p>
-                La cible de projet est connecté, il fallait donc lui fournir une
-                web application. Ce choix permet aujourd'hui à United Managers
-                de centraliser ses données et de décider des interfaces qui
-                pourront les exploiter. Les langages du web étant plus faciles
-                d'accès, ils nécessitent donc des développeurs moins
-                spécialisés.
+                La création d'un format part toujours d'un constat : le sujet ou
+                le traitement de l'information n'a jamais été abordé de cette
+                façon auparavant. À nous ensuite de nous poser les bonnes
+                questions pour créer le bon format.
               </p>
             </div>
             <div class="column">
-              <h3 class="title">Prototyper et itérer</h3>
+              <h3 class="title">Incuber un pilote pendant plusieurs mois</h3>
               <p>
-                Le prototypage permet au client de voir son concept à l'oeuvre
-                de la façon la plus rudimentaire et rapide possible. Pour
-                l'équipe de développement, c'est un moyen peu couteux d'éprouver
-                une technologie et de valider un produit minimum viable. Durant
-                la phase de prototypage, plusieurs prototypes sont créés avec
-                des corrections et améliorations. Chaque version correspond à
-                une itération.
+                Tous nos formats débutent avec un pilote au sein de l'équipe. Ce
+                pilote nous permets d'avoir un premier retour et des pistes
+                d'amélioration. En moyenne, un format reste en incubation durant
+                6 mois avant d'être diffusé pour la première fois.{' '}
+              </p>
+              <p>
+                Cela peut sembler très long, mais ce temps est nécessaire pour
+                prendre du recul et parfois changer radicalement de vision
+                pendant le processus de création.
               </p>
             </div>
           </div>
@@ -189,91 +228,29 @@ const CrossPlayPage = () => {
         <div class="container">
           <div class="columns is-variable is-8">
             <div class="column">
-              <h3>5. Collaborer au Game Design</h3>
-              <p class="subtitle">
-                Comment gamifier pour maximiser la fidélisation ?
-              </p>
+              <h3>5. Tisser des liens</h3>
+              <p class="subtitle">Comment créer de la cohésion d'équipe ?</p>
               <p>
-                L'ensemble de l'expérience United Managers a été conçue avec
-                l'aide d'un Game Designer professionnel et expérimenté. En tant
-                que joueur, j'ai eu la chance de collaborer avec lui à la
-                création du système de progression, l'arbre de choix et le
-                système de récompenses de United Managers
+                Le Team Building consiste à renforcer les liens au sein de
+                l'équipe en se donnant du temps pour parler d'autre chose que de
+                nos activités. Les contributeurs sont avant tout des amis, une
+                famille, qui partage les bons comme les mauvais moments.
               </p>
             </div>
             <div class="column">
-              <h3 class="title">Playtester et simuler</h3>
+              <h3 class="title">Faire du Team Building</h3>
               <p>
-                Créer un système jeu avec des objectifs de rétentions implique
-                de tester régulièrement le système en conditions réelles.
-                Plusieurs systèmes différents basés sur les règles du football,
-                les choix d'un entraîneur professionnel et les principes de game
-                design du jeu de rôle et simulation ont servis de base au
-                travail accompli pour United Managers.
+                Chaque semaine, je consacre du temps, en équipe ou
+                individuellement aux différents contributeurs pour partager leur
+                actualité. L'occasion de discuter de sujets plus personnels, de
+                jouer, de faire un bon repas également et surtout de resserer
+                les liens.
               </p>
             </div>
           </div>
         </div>
       </section>
-      <section class="section">
-        <div class="container">
-          <div class="columns">
-            <div class="column">
-              <h3>6. Créer un modèle économique</h3>
-              <p class="subtitle">Quelle stratégie de monétisation adopter ?</p>
-              <p>
-                La monétisation d'un service en ligne dépend des utilisateurs,
-                leurs habitudes et l'offre du produit. Dans le cas de United
-                Managers, le produit est radicalement nouveau, ce qui signifie
-                aussi de trouver une stratégie de monétisation cohérente et
-                facile à comprendre pour le joueur comme un système
-                d'abonnement, des microtransactions ou l'usage d'une devise
-                virtuelle.
-              </p>
-            </div>
-            <div class="column">
-              <h3 class="title">Créer des personas</h3>
-              <p>
-                Le modèle économique dépend de la cible visée et des attentes du
-                client. Il a donc fallu se projeter sur le profil des joueurs
-                visés par United Managers et analyser les modèles économiques
-                les plus susceptibles de générer des revenus. Pas moins d'une
-                dizaine de modèles différents ont été construits avant de mettre
-                en place celui utilisé actuellement.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="section">
-        <div class="container">
-          <div class="columns">
-            <div class="column">
-              <h3>7. Superviser l'UI - UX</h3>
-              <p class="subtitle">Quel contexte pour quelle information ?</p>
-              <p>
-                L'expérience de l'utilisateur est le point clé d'un projet comme
-                celui de United Managers. Aussi bon soit le concept, une
-                exécution inadaptée lui portera préjudice. Avec l'aide d'un
-                ergo-designer expérimenté, United Managers a profité d'un
-                travail sur l'expérience et les interfaces poussé.
-              </p>
-            </div>
-            <div class="column">
-              <h3 class="title">Envisager l'expérience comme un flux</h3>
-              <p>
-                L'ensemble des interfaces et interactions constituent un flux de
-                pensées et d'émotions qu'il nous faut maîtriser à toute les
-                étapes de l'expérience. L'utilisateur doit avoir accès aux
-                informations qui sont importantes pour lui sans se sentir
-                innondé. Dès lors, l'expérience n'est plus une suite d'écran
-                mais un flux continue d'informations qui doivent être
-                structurées en fonction du contexte.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+
       <Footer />
     </div>
   )

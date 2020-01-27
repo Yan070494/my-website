@@ -6,3 +6,39 @@
     background-position: center;
     background-size: cover;
   } */
+
+.home {
+  background-image: url('../images/home-background.jpg');
+  background-size: cover;
+}
+
+.home .navbar {
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(4px);
+}
+
+.steam-icon {
+  background: -webkit-linear-gradient(#111d2e, #1387b8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.playstation-icon {
+  color: black;
+}
+
+.xbox-icon {
+  color: #117c12;
+}
+
+.facebook-icon {
+  color: #3b5998;
+}
+
+.twitter-icon {
+  color: #1da1f2;
+}
+
+.youtube-icon {
+  color: #ed1b24;
+}

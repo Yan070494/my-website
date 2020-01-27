@@ -120,7 +120,7 @@ const ProfilePage = () => {
             "Dans le futur, les leaders seront ceux qui savent donner le pouvoir
             aux autres."
           </h1>
-          <p class="is-size-4">Bill Gates, Fondateur de Microsoft</p>
+          <p class="is-size-4 column">Bill Gates, Fondateur de Microsoft</p>
           <hr />
         </div>
       </section>

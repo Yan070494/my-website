@@ -50,10 +50,13 @@ const UnitedManagersPage = () => {
               />
               <span class="subtitle is-size-6">
                 Photo officielle de{' '}
-                <a href="https://www.agcaenfootball.com/">
+                <a href="https://www.agcaenfootball.com/" target="_blank">
                   l'équipe de Football de l'Avant-Garde Caennaise
                 </a>{' '}
-                by <a href="https://app.unitedmanagers.com/">United Managers</a>
+                by{' '}
+                <a href="https://app.unitedmanagers.com/" target="_blank">
+                  United Managers
+                </a>
               </span>
             </div>
           </div>
@@ -224,7 +227,7 @@ const UnitedManagersPage = () => {
       </section>
       <section class="section">
         <div class="container">
-          <div class="columns">
+          <div class="columns is-variable is-8">
             <div class="column">
               <h3>6. Créer un modèle économique</h3>
               <p class="subtitle">Quelle stratégie de monétisation adopter ?</p>
@@ -254,7 +257,7 @@ const UnitedManagersPage = () => {
       </section>
       <section class="section">
         <div class="container">
-          <div class="columns">
+          <div class="columns is-variable is-8">
             <div class="column">
               <h3>7. Superviser l'UI - UX</h3>
               <p class="subtitle">Quel contexte pour quelle information ?</p>

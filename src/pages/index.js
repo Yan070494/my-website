@@ -7,19 +7,23 @@ import Head from '../components/head'
 
 const IndexPage = () => {
   return (
-    <div class="content">
-      <section class="hero hero-bg is-fullheight">
+    <div class="content no-scroll">
+      <section class="hero hero-bg home is-fullheight">
         <div class="hero-head"></div>
         <Head />
         <Header active="0" />
         <div class="hero-body">
           <div class="container">
             <div class="columns">
-              <div class="column is-half">
-                <p class="title is-size-1">Hello, je suis Yanis !</p>
-                <p class="subtitle">Comment puis-je vous aider ?</p>
+              <div class="column is-half background-blured">
+                <p class="title is-size-1 has-text-white">
+                  Hello, je suis Yanis !
+                </p>
+                <p class="subtitle has-text-white">
+                  Comment puis-je vous aider ?
+                </p>
                 <Link to="/profil">
-                  <button class="button is-primary">
+                  <button class="button">
                     <span class="icon is-medium">
                       <i class="fas fa-smile"></i>
                     </span>
