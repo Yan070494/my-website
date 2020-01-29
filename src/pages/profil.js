@@ -111,7 +111,7 @@ const skills = [
 const ProfilePage = () => {
   return (
     <div class="content">
-      <Head />
+      <Head title="Mon profil - Yanis Abounacer" />
       <Header />
       <img src={PortraitProfil} />
       <section class="section">

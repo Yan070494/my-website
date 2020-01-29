@@ -13,7 +13,7 @@ import HeroBackground from '../../images/projets/crossplay/crossplay-hero.png'
 const CrossPlayPage = () => {
   return (
     <div class="content">
-      <Head />
+      <Head title="CrossPlay : le site d'opinion consacré au jeu vidéo et la technologe - Projet - Yanis Abounacer" />
       <Header />
       <section>
         <img src={HeroBackground} />

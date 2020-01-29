@@ -14,7 +14,7 @@ import PhotoMagasin from '../../images/projets/ldlc/magasin.png'
 const LDLCPage = () => {
   return (
     <div class="content">
-      <Head />
+      <Head title="LDLC Caen - Projet - Yanis Abounacer" />
       <Header />
       <section>
         <img src={HeroBackground} />

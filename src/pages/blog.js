@@ -14,7 +14,7 @@ class BlogIndex extends React.Component {
 
     return (
       <div class="content">
-        <Head />
+        <Head title="Le Blog - Yanis Abounacer" />
         <Header />
         <div style={{ background: '#fff' }}>
           <section class="hero hero-bg is-medium has-background-primary">

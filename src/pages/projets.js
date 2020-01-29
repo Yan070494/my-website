@@ -17,7 +17,7 @@ import UnitedManagersMiniature from '../images/projets/unitedmanagers.png'
 const ProjectPage = () => {
   return (
     <div class="content">
-      <Head />
+      <Head title="Mes projets - Yanis Abounacer" />
       <Header />
       <img src={HeroImage} alt="Tableau" />
       <section class="section">

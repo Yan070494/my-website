@@ -10,7 +10,7 @@ const IndexPage = () => {
     <div class="content no-scroll">
       <section class="hero hero-bg home is-fullheight">
         <div class="hero-head"></div>
-        <Head />
+        <Head title="Yanis Abounacer : Chef de Projet, Développeur et Entrepreneur" />
         <Header active="0" />
         <div class="hero-body">
           <div class="container">
