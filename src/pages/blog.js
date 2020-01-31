@@ -13,18 +13,18 @@ class BlogIndex extends React.Component {
     const posts = get(this, 'props.data.allContentfulBlogPost.edges')
 
     return (
-      <div class="content">
+      <div className="content">
         <Head title="Le Blog - Yanis Abounacer" />
         <Header />
         <div style={{ background: '#fff' }}>
-          <section class="hero hero-bg is-medium has-background-primary">
-            <div class="hero-head"></div>
-            <div class="hero-body">
-              <div class="container">
-                <div class="columns">
-                  <div class="column is-half">
-                    <p class="title">Bienvenue sur mon blog !</p>
-                    <p class="subtitle">
+          <section className="hero hero-bg is-medium has-background-primary">
+            <div className="hero-head"></div>
+            <div className="hero-body">
+              <div className="container">
+                <div className="columns">
+                  <div className="column is-half">
+                    <p className="title">Bienvenue sur mon blog !</p>
+                    <p className="subtitle">
                       Que souhaitez-vous lire aujourd'hui ?
                     </p>
                   </div>
@@ -32,13 +32,13 @@ class BlogIndex extends React.Component {
               </div>
             </div>
           </section>
-          <section class="section">
-            <div class="container">
+          <section className="section">
+            <div className="container">
               <div className="wrapper">
-                <div class="column">
+                <div className="column">
                   {posts.map(({ node }) => {
                     return (
-                      <div class="column" key={node.slug}>
+                      <div className="column" key={node.slug}>
                         <ArticlePreview article={node} />
                       </div>
                     )

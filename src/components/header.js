@@ -2,56 +2,60 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 export default () => (
-  <nav class="navbar">
-    <div class="container">
-      <div class="navbar-brand">
-        <Link to="/" class="navbar-item" activeClassName="navbar-item">
-          <p class="is-size-5">Yanis Abounacer</p>
+  <nav className="navbar">
+    <div className="container">
+      <div className="navbar-brand">
+        <Link
+          to="/"
+          className="navbar-item"
+          activeclassname="is-active navbar-item"
+        >
+          <span className="is-size-5">Yanis Abounacer</span>
         </Link>
-        <span class="navbar-burger burger" data-target="navbarMenuHeroB">
+        <span className="navbar-burger burger" data-target="navbarMenuHeroB">
           <span></span>
           <span></span>
           <span></span>
         </span>
       </div>
-      <div id="navbarMenuHeroB" class="navbar-menu">
-        <div class="navbar-end">
+      <div id="navbarMenuHeroB" className="navbar-menu">
+        <div className="navbar-end">
           <Link
             to="/profil"
-            class="navbar-item"
-            activeClassName="is-active navbar-item"
+            className="navbar-item"
+            activeclassname="is-active navbar-item"
           >
-            <span class="icon is-medium has-text-primary">
-              <i class="fas fa-smile"></i>
+            <span className="icon is-medium profile-color">
+              <i className="fas fa-user-alt"></i>
             </span>
             <span>Profil</span>
           </Link>
           <div
-            class="navbar-item has-dropdown is-hoverable"
-            activeClassName="is-active navbar-item"
+            className="navbar-item has-dropdown is-hoverable"
+            activeclassname="is-active navbar-item"
           >
-            <a class="navbar-link" href="/projets">
-              <span class="icon is-medium has-text-warning">
-                <i class="fas fa-star"></i>
+            <a className="navbar-link" href="/projets">
+              <span className="icon is-medium project-color">
+                <i className="fas fa-star"></i>
               </span>
               <span>Projets</span>
             </a>
-            <div class="navbar-dropdown is-boxed">
-              <a class="navbar-item" href="/projets/unitedmanagers/">
-                <span class="icon is-medium">
-                  <i class="fas fa-futbol"></i>
+            <div className="navbar-dropdown is-boxed">
+              <a className="navbar-item" href="/projets/unitedmanagers/">
+                <span className="icon is-medium">
+                  <i className="fas fa-futbol"></i>
                 </span>
                 <span>United Managers</span>
               </a>
-              <a class="navbar-item" href="/projets/ldlc/">
-                <span class="icon is-medium">
-                  <i class="fas fa-desktop"></i>
+              <a className="navbar-item" href="/projets/ldlc/">
+                <span className="icon is-medium">
+                  <i className="fas fa-desktop"></i>
                 </span>
                 <span>LDLC</span>
               </a>
-              <a class="navbar-item" href="/projets/crossplay/">
-                <span class="icon is-medium">
-                  <i class="fas fa-gamepad"></i>
+              <a className="navbar-item" href="/projets/crossplay/">
+                <span className="icon is-medium">
+                  <i className="fas fa-gamepad"></i>
                 </span>
                 <span>CrossPlay</span>
               </a>
@@ -60,11 +64,11 @@ export default () => (
 
           <Link
             to="/blog"
-            class="navbar-item"
-            activeClassName="is-active navbar-item"
+            className="navbar-item"
+            activeclassname="is-active navbar-item"
           >
-            <span class="icon is-medium has-text-info">
-              <i class="fas fa-comment-dots"></i>
+            <span className="icon is-medium blog-color">
+              <i className="fas fa-comment-dots"></i>
             </span>
             <span>Blog</span>
           </Link>

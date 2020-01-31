@@ -7,13 +7,19 @@
     background-size: cover;
   } */
 
-.home {
+.home-desktop {
   background-image: url('../images/home-background.jpg');
   background-size: cover;
 }
 
-.home .navbar {
-  background-color: rgba(255, 255, 255, 0.8);
+.home-touch {
+  background-image: url('../images/home-mobile-background.jpg');
+  background-size: cover;
+}
+
+.home-desktop .navbar,
+.home-touch .navbar {
+  background-color: rgba(255, 255, 255, 0.85);
   backdrop-filter: blur(4px);
 }
 
@@ -41,4 +47,59 @@
 
 .youtube-icon {
   color: #ed1b24;
+}
+
+.post p,
+.post h2,
+.post h3,
+.post h4,
+.post ul {
+  margin-bottom: 1.5rem;
+}
+
+.button.yellow-background {
+  background-color: #ffd000;
+}
+
+.post h2 {
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.post h3 {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.post h4 {
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.post ul {
+  padding-left: 1.5rem;
+}
+
+.post li {
+  list-style-type: disc;
+}
+
+.project-color {
+  color: #ffb900;
+}
+
+.profile-color {
+  color: #00cc6a;
+}
+
+.blog-color {
+  color: #0099bc;
+}
+
+.navbar-link:not(.is-arrowless)::after {
+  border-color: grey;
+}
+
+.navbar-dropdown {
+  background-color: rgba(255, 255, 255, 0.9);
 }

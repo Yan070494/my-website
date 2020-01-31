@@ -16,30 +16,30 @@ import UnitedManagersMiniature from '../images/projets/unitedmanagers.png'
 
 const ProjectPage = () => {
   return (
-    <div class="content">
+    <div className="content">
       <Head title="Mes projets - Yanis Abounacer" />
       <Header />
       <img src={HeroImage} alt="Tableau" />
-      <section class="section">
-        <div class="container has-text-centered">
-          <h1 class="title is-size-1">
+      <section className="section">
+        <div className="container has-text-centered">
+          <h1 className="title is-size-1">
             "Pour réussir il ne suffit pas de prévoir, il faut aussi savoir
             improviser."
           </h1>
-          <p class="is-size-4 column">Isaac Asimov</p>
+          <p className="is-size-4 column">Isaac Asimov</p>
           <hr />
         </div>
       </section>
-      <section class="section">
-        <div class="container">
-          <h2 class="title is-size-2">Mes missions</h2>
-          <p class="is-size-4">
+      <section className="section">
+        <div className="container">
+          <h2 className="title is-size-2">Mes missions</h2>
+          <p className="is-size-4">
             Depuis 2013, j'accompagne et mène des projets de tous les horizons.
             Pour des raisons de confidentialité, tous ne peuvent pas figurer
             ici. Trois d'entre eux sont évoqués en détail :
           </p>
-          <div class="columns is-variable is-8">
-            <div class="column">
+          <div className="columns is-variable is-8">
+            <div className="column">
               <img src={LDLCMiniature} alt="Logo de LDLC" />
               <h3>
                 <Link to="/projets/ldlc">Concept Store LDLC Caen</Link>
@@ -51,7 +51,7 @@ const ProjectPage = () => {
                 franchisés.
               </p>
             </div>
-            <div class="column">
+            <div className="column">
               <img src={UnitedManagersMiniature} alt="Logo de LDLC" />
               <h3>
                 <Link to="/projets/unitedmanagers">United Managers</Link>
@@ -63,7 +63,7 @@ const ProjectPage = () => {
                 le match.
               </p>
             </div>
-            <div class="column">
+            <div className="column">
               <img src={CrossPlayMiniature} alt="Logo de LDLC" />
               <h3>
                 <Link to="projets/crossplay">CrossPlay</Link>
@@ -79,13 +79,13 @@ const ProjectPage = () => {
         </div>
       </section>
       <section>
-        <div class="container has-text-centered">
+        <div className="container has-text-centered">
           <hr />
-          <p class=" is-size-4">
-            Vous souhaitez en savoir plus sur la suite de mon profil ?
+          <p className=" is-size-4">
+            Vous souhaitez en savoir plus sur mon profil ?
           </p>
           <Link to="/profil">
-            <button class="button yellow-background">
+            <button className="button yellow-background">
               Découvrez mon parcours et mes compétences !
             </button>
           </Link>

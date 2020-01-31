@@ -13,40 +13,40 @@ import PhotoMagasin from '../../images/projets/ldlc/magasin.png'
 
 const LDLCPage = () => {
   return (
-    <div class="content">
+    <div className="content">
       <Head title="LDLC Caen - Projet - Yanis Abounacer" />
       <Header />
       <section>
         <img src={HeroBackground} />
       </section>
-      <section class="section">
-        <div class="container">
-          <h2 class="title">Le projet</h2>
+      <section className="section">
+        <div className="container">
+          <h2 className="title">Le projet</h2>
           <hr />
-          <div class="columns is-variable is-8">
-            <div class="column">
-              <p class="is-size-5">
+          <div className="columns is-variable is-8">
+            <div className="column">
+              <p className="is-size-5">
                 LDLC est une marque spécialisée dans la vente et le conseil en
                 achats informatiques. Le Groupe LDLC a imaginé une approche
                 cross-canal grâce à son site internet et l'ensemble du réseau de
                 concept stores franchisés en France.
               </p>
-              <p class="is-size-5">
+              <p className="is-size-5">
                 En tant qu'entrepreneur, j'adhère à la vision qualitative des
                 activités du groupe et porte la responsabilité de l'arrivée de
                 la marque à Caen, en Normandie. Grâce à une relation de
                 partenariat avec le groupe, j'ai pu profiter d'un formidable
                 tremplin et créer ma propre société.
               </p>
-              <p class="is-size-5">
+              <p className="is-size-5">
                 Plus qu'un lieu de vente, le Concept Store est un lieu de
                 conseil, une zone de réparation et un endroit dédié aux
                 expériences numérique pour tous.
               </p>
             </div>
-            <div class="column has-text-centered">
+            <div className="column has-text-centered">
               <img src={PhotoMagasin} alt="Concept Store LDLC de Caen" />
-              <span class="subtitle is-size-6">
+              <span className="subtitle is-size-6">
                 Concept Store{' '}
                 <a href="https://www.ldlc.com/" target="_blank">
                   LDLC
@@ -57,25 +57,25 @@ const LDLCPage = () => {
           </div>
         </div>
       </section>
-      <section class="section ">
-        <div class="container">
-          <div class="columns ">
-            <div class="column">
-              <h2 class="title has-text-centered">Les missions</h2>
+      <section className="section ">
+        <div className="container">
+          <div className="columns ">
+            <div className="column">
+              <h2 className="title has-text-centered">Les missions</h2>
             </div>
-            <div class="column">
-              <h2 class="title has-text-centered">La méthode</h2>
+            <div className="column">
+              <h2 className="title has-text-centered">La méthode</h2>
             </div>
           </div>
-          <hr class="is-marginless" />
+          <hr className="is-marginless" />
         </div>
       </section>
-      <section class="section">
-        <div class="container">
-          <div class="columns is-variable is-8">
-            <div class="column">
+      <section className="section">
+        <div className="container">
+          <div className="columns is-variable is-8">
+            <div className="column">
               <h3>1. Analyser le marché</h3>
-              <p class="subtitle">
+              <p className="subtitle">
                 La zone choisie est-elle adaptée au concept LDLC ?
               </p>
               <p>
@@ -91,8 +91,10 @@ const LDLCPage = () => {
                 <li>La projection du chiffre d'affaire</li>
               </ul>
             </div>
-            <div class="column">
-              <h3 class="title">Collecter et croiser les données publiques</h3>
+            <div className="column">
+              <h3 className="title">
+                Collecter et croiser les données publiques
+              </h3>
               <p>
                 L'initiative gouvernementale Open Data permet une plus grande
                 transparence ainsi qu'une réexploitation des données publiques
@@ -116,12 +118,12 @@ const LDLCPage = () => {
           </div>
         </div>
       </section>
-      <section class="section">
-        <div class="container">
-          <div class="columns is-variable is-8">
-            <div class="column">
+      <section className="section">
+        <div className="container">
+          <div className="columns is-variable is-8">
+            <div className="column">
               <h3>2. Construire un prévisionnel financier</h3>
-              <p class="subtitle">
+              <p className="subtitle">
                 Quels sont les implications financières du projet ?
               </p>
               <p>
@@ -133,8 +135,8 @@ const LDLCPage = () => {
                 la cohérence de la vision financière du projet.
               </p>
             </div>
-            <div class="column">
-              <h3 class="title">Exploiter les données du groupe</h3>
+            <div className="column">
+              <h3 className="title">Exploiter les données du groupe</h3>
               <p>
                 L'approche cross-canal de LDLC implique la collecte de données
                 sur les ventes en France effectuées en ligne et en boutique. Qui
@@ -149,12 +151,12 @@ const LDLCPage = () => {
           </div>
         </div>
       </section>
-      <section class="section">
-        <div class="container">
-          <div class="columns is-variable is-8">
-            <div class="column">
+      <section className="section">
+        <div className="container">
+          <div className="columns is-variable is-8">
+            <div className="column">
               <h3>3. Rechercher un local adapté</h3>
-              <p class="subtitle">
+              <p className="subtitle">
                 Comment exploiter au mieux les ressources à notre disposition ?
               </p>
               <p>
@@ -169,8 +171,8 @@ const LDLCPage = () => {
                 avant l'ouverture.
               </p>
             </div>
-            <div class="column">
-              <h3 class="title">Normaliser la recherche</h3>
+            <div className="column">
+              <h3 className="title">Normaliser la recherche</h3>
               <p>
                 Les critères de recherches étant clairement définis, il est
                 possible d'avoir une approche normalisée de la recherche de
@@ -188,12 +190,12 @@ const LDLCPage = () => {
           </div>
         </div>
       </section>
-      <section class="section">
-        <div class="container">
-          <div class="columns is-variable is-8">
-            <div class="column">
+      <section className="section">
+        <div className="container">
+          <div className="columns is-variable is-8">
+            <div className="column">
               <h3>4. Respecter l'identité de LDLC</h3>
-              <p class="subtitle">
+              <p className="subtitle">
                 Comment donner des points de repères reconnaissables au client ?
               </p>
               <p>
@@ -203,8 +205,8 @@ const LDLCPage = () => {
                 repères indépendament de la boutique qu'il visite.
               </p>
             </div>
-            <div class="column">
-              <h3 class="title">Adopter une démarche collaborative</h3>
+            <div className="column">
+              <h3 className="title">Adopter une démarche collaborative</h3>
               <p>
                 LDLC maîtrise son identité et veille à son respect en boutique.
                 Je suis le décisionnaire final au sein de mon magasin et doit
@@ -218,12 +220,14 @@ const LDLCPage = () => {
           </div>
         </div>
       </section>
-      <section class="section">
-        <div class="container">
-          <div class="columns is-variable is-8">
-            <div class="column">
+      <section className="section">
+        <div className="container">
+          <div className="columns is-variable is-8">
+            <div className="column">
               <h3>5. Monter en compétence avec son équipe</h3>
-              <p class="subtitle">Que pouvons-nous apprendre de nouveau ?</p>
+              <p className="subtitle">
+                Que pouvons-nous apprendre de nouveau ?
+              </p>
               <p>
                 L'ensemble de l'équipe possèdes ses forces, son expérience et sa
                 vision. Néanmoins, elle n'a pas le recul d'un grand groupe qui
@@ -236,8 +240,8 @@ const LDLCPage = () => {
                 force afin de rendre toute l'équipe plus solide.
               </p>
             </div>
-            <div class="column">
-              <h3 class="title">Entrer en immersion</h3>
+            <div className="column">
+              <h3 className="title">Entrer en immersion</h3>
               <p>
                 L'une des plus formidable opportunités avec un groupe comme LDLC
                 est certainemetn celle de pouvoir suivre le quotidien des
@@ -256,12 +260,12 @@ const LDLCPage = () => {
           </div>
         </div>
       </section>
-      <section class="section">
-        <div class="container">
-          <div class="columns is-variable is-8">
-            <div class="column">
+      <section className="section">
+        <div className="container">
+          <div className="columns is-variable is-8">
+            <div className="column">
               <h3>6. Créer de la valeur pour le client</h3>
-              <p class="subtitle">
+              <p className="subtitle">
                 Qu'est-ce qui compte vraiment pour le client ?
               </p>
               <p>
@@ -275,8 +279,8 @@ const LDLCPage = () => {
                 nouveaux services régulièrement pour créer de la valeur.
               </p>
             </div>
-            <div class="column">
-              <h3 class="title">
+            <div className="column">
+              <h3 className="title">
                 Engager le client dans un processus de retour régulier
               </h3>
               <p>
@@ -293,12 +297,14 @@ const LDLCPage = () => {
           </div>
         </div>
       </section>
-      <section class="section">
-        <div class="container">
-          <div class="columns is-variable is-8">
-            <div class="column">
+      <section className="section">
+        <div className="container">
+          <div className="columns is-variable is-8">
+            <div className="column">
               <h3>7. Rendre l'expérience différenciante</h3>
-              <p class="subtitle">En quoi la proposition est-elle unique ?</p>
+              <p className="subtitle">
+                En quoi la proposition est-elle unique ?
+              </p>
               <p>
                 L'expérience de l'utilisateur est le point clé d'un projet comme
                 celui de United Managers. Aussi bon soit le concept, une
@@ -307,8 +313,8 @@ const LDLCPage = () => {
                 travail sur l'expérience et les interfaces poussé.
               </p>
             </div>
-            <div class="column">
-              <h3 class="title">Expérimenter en récompensant l'échec</h3>
+            <div className="column">
+              <h3 className="title">Expérimenter en récompensant l'échec</h3>
               <p>
                 Essayer de se démarquer n'est pas suffisant. Il faut accepter de
                 faire ce qui n'a jamais été fait ailleurs et récompenser l'échec

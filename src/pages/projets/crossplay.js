@@ -12,26 +12,26 @@ import HeroBackground from '../../images/projets/crossplay/crossplay-hero.png'
 
 const CrossPlayPage = () => {
   return (
-    <div class="content">
+    <div className="content">
       <Head title="CrossPlay : le site d'opinion consacré au jeu vidéo et la technologe - Projet - Yanis Abounacer" />
       <Header />
       <section>
         <img src={HeroBackground} />
       </section>
-      <section class="section">
-        <div class="container">
-          <h2 class="title">Le projet</h2>
+      <section className="section">
+        <div className="container">
+          <h2 className="title">Le projet</h2>
           <hr />
-          <div class="columns is-variable is-8">
-            <div class="column is-half">
-              <p class="is-size-5">
+          <div className="columns is-variable is-8">
+            <div className="column is-half">
+              <p className="is-size-5">
                 CrossPlay est un site web, dont je suis le fondateur, traitant
                 des jeux vidéo et de la technologie où tous les contributeurs
                 sont des gens comme vous et moi. Pas de journalistes, une ligne
                 éditoriale libre et des opinions qui n'engagent que les auteurs
                 des articles.
               </p>
-              <p class="is-size-5">
+              <p className="is-size-5">
                 Toute la force du concept réside dans la capacité de l'équipe à
                 produire de nouveaux formats régulièrement à des fins
                 d'expérimentations. Sur les réseaux sociaux, YouTube ou les
@@ -39,21 +39,21 @@ const CrossPlayPage = () => {
                 apprend depuis 3 ans au travers de nouveaux contenus
                 hebdomadaires.
               </p>
-              <p class="is-size-5">
+              <p className="is-size-5">
                 Aujourd'hui, la plateforme dénombre plus de 12 500 visiteurs
                 chaque année dans le monde entier.
               </p>
             </div>
-            <div class="column has-text-centered">
+            <div className="column has-text-centered">
               <iframe
                 width="100%"
                 height="100%"
                 src="https://www.youtube-nocookie.com/embed/KNxBrkVZKrs"
-                frameborder="0"
+                frameBorder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
+                allowFullScreen
               ></iframe>
-              <span class="subtitle is-size-6">
+              <span className="subtitle is-size-6">
                 Photo officielle de{' '}
                 <a href="https://www.agcaenfootball.com/">
                   l'équipe de Football de l'Avant-Garde Caennaise
@@ -67,25 +67,27 @@ const CrossPlayPage = () => {
           </div>
         </div>
       </section>
-      <section class="section ">
-        <div class="container">
-          <div class="columns ">
-            <div class="column">
-              <h2 class="title has-text-centered">Les missions</h2>
+      <section className="section ">
+        <div className="container">
+          <div className="columns ">
+            <div className="column">
+              <h2 className="title has-text-centered">Les missions</h2>
             </div>
-            <div class="column">
-              <h2 class="title has-text-centered">La méthode</h2>
+            <div className="column">
+              <h2 className="title has-text-centered">La méthode</h2>
             </div>
           </div>
-          <hr class="is-marginless" />
+          <hr className="is-marginless" />
         </div>
       </section>
-      <section class="section">
-        <div class="container">
-          <div class="columns is-variable is-8">
-            <div class="column">
+      <section className="section">
+        <div className="container">
+          <div className="columns is-variable is-8">
+            <div className="column">
               <h3>1. Recruter une équipe de contributeurs</h3>
-              <p class="subtitle">Comment impliquer une équipe bénévole ?</p>
+              <p className="subtitle">
+                Comment impliquer une équipe bénévole ?
+              </p>
               <p>
                 CrossPlay n'est pas une entité légale. Il ne s'agit pas d'une
                 société, d'une association ou même d'une marque. Tous ceux qui
@@ -95,8 +97,10 @@ const CrossPlayPage = () => {
                 que nous faisons depuis 3 ans maintenant.
               </p>
             </div>
-            <div class="column">
-              <h3 class="title">Donner à chacun le pouvoir d'en faire plus</h3>
+            <div className="column">
+              <h3 className="title">
+                Donner à chacun le pouvoir d'en faire plus
+              </h3>
               <p>
                 Un passionné ne compte ni son temps, ni son énergie. Dès lors,
                 l'impliquer consiste à trouver un moyen pour lui de se réaliser
@@ -110,12 +114,12 @@ const CrossPlayPage = () => {
           </div>
         </div>
       </section>
-      <section class="section">
-        <div class="container">
-          <div class="columns is-variable is-8">
-            <div class="column">
+      <section className="section">
+        <div className="container">
+          <div className="columns is-variable is-8">
+            <div className="column">
               <h3>2. Créer le site internet</h3>
-              <p class="subtitle">Quel est l'objectif du site ?</p>
+              <p className="subtitle">Quel est l'objectif du site ?</p>
               <p>
                 Au sein de l'équipe, nous sommes tous technophiles ou
                 informaticiens professionnel. Créer un site internet ne
@@ -129,8 +133,8 @@ const CrossPlayPage = () => {
                 intéragir avec nos contenus.
               </p>
             </div>
-            <div class="column">
-              <h3 class="title">Exploiter des technologies éprouvées</h3>
+            <div className="column">
+              <h3 className="title">Exploiter des technologies éprouvées</h3>
               <p>
                 L'excellence technologique n'est pas l'objectif d'un média
                 d'opinion. C'est la raison pour laquelle nous avons choisi
@@ -148,12 +152,12 @@ const CrossPlayPage = () => {
           </div>
         </div>
       </section>
-      <section class="section">
-        <div class="container">
-          <div class="columns is-variable is-8">
-            <div class="column">
+      <section className="section">
+        <div className="container">
+          <div className="columns is-variable is-8">
+            <div className="column">
               <h3>3. Promouvoir nos contenus sur les réseaux sociaux</h3>
-              <p class="subtitle">
+              <p className="subtitle">
                 Quelle stratégie sociale pour atteindre nos lecteurs ?
               </p>
               <p>
@@ -165,8 +169,8 @@ const CrossPlayPage = () => {
                 nous intéresse à titre personnel.
               </p>
             </div>
-            <div class="column">
-              <h3 class="title">
+            <div className="column">
+              <h3 className="title">
                 Donner des directions plutôt que tout planifier
               </h3>
               <p>
@@ -188,12 +192,12 @@ const CrossPlayPage = () => {
           </div>
         </div>
       </section>
-      <section class="section">
-        <div class="container">
-          <div class="columns is-variable is-8">
-            <div class="column">
+      <section className="section">
+        <div className="container">
+          <div className="columns is-variable is-8">
+            <div className="column">
               <h3>4. Créer des formats</h3>
-              <p class="subtitle">Qu'avons-nous envie de faire ?</p>
+              <p className="subtitle">Qu'avons-nous envie de faire ?</p>
               <p>
                 Cette question pilote l'ensemble de nos activités. Nous faisons
                 ce qui nous intéresse plutôt que de suivre les vagues de
@@ -207,8 +211,10 @@ const CrossPlayPage = () => {
                 questions pour créer le bon format.
               </p>
             </div>
-            <div class="column">
-              <h3 class="title">Incuber un pilote pendant plusieurs mois</h3>
+            <div className="column">
+              <h3 className="title">
+                Incuber un pilote pendant plusieurs mois
+              </h3>
               <p>
                 Tous nos formats débutent avec un pilote au sein de l'équipe. Ce
                 pilote nous permets d'avoir un premier retour et des pistes
@@ -224,12 +230,14 @@ const CrossPlayPage = () => {
           </div>
         </div>
       </section>
-      <section class="section">
-        <div class="container">
-          <div class="columns is-variable is-8">
-            <div class="column">
+      <section className="section">
+        <div className="container">
+          <div className="columns is-variable is-8">
+            <div className="column">
               <h3>5. Tisser des liens</h3>
-              <p class="subtitle">Comment créer de la cohésion d'équipe ?</p>
+              <p className="subtitle">
+                Comment créer de la cohésion d'équipe ?
+              </p>
               <p>
                 Le Team Building consiste à renforcer les liens au sein de
                 l'équipe en se donnant du temps pour parler d'autre chose que de
@@ -237,8 +245,8 @@ const CrossPlayPage = () => {
                 famille, qui partage les bons comme les mauvais moments.
               </p>
             </div>
-            <div class="column">
-              <h3 class="title">Faire du Team Building</h3>
+            <div className="column">
+              <h3 className="title">Faire du Team Building</h3>
               <p>
                 Chaque semaine, je consacre du temps, en équipe ou
                 individuellement aux différents contributeurs pour partager leur

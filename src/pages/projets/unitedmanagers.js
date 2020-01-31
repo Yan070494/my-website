@@ -14,19 +14,19 @@ import HeroBackground from '../../images/projets/unitedmanagers/unitedmanagers-h
 
 const UnitedManagersPage = () => {
   return (
-    <div class="content">
+    <div className="content">
       <Head title="United Managers : l'application de coaching collaborative - Projet - Yanis Abounacer" />
       <Header />
       <section>
         <img src={HeroBackground} />
       </section>
-      <section class="section">
-        <div class="container">
-          <h2 class="title">Le projet</h2>
+      <section className="section">
+        <div className="container">
+          <h2 className="title">Le projet</h2>
           <hr />
-          <div class="columns is-variable is-8">
-            <div class="column">
-              <p class="is-size-5">
+          <div className="columns is-variable is-8">
+            <div className="column">
+              <p className="is-size-5">
                 United Managers est un projet d'envergure à la croisée des
                 chemins entre un réseau social et une simulation sportive. Ici,
                 une communauté d'utilisateurs inscrits prennent les décisions
@@ -35,7 +35,7 @@ const UnitedManagersPage = () => {
                 plus pertinente. Avant, pendant et après le match, les
                 utilisateurs ont toute latitude dans la gestion de l'équipe.
               </p>
-              <p class="is-size-5">
+              <p className="is-size-5">
                 Le concept avait déjà été expérimenté en 2002 sous un autre nom
                 : le Web Football Club. L'avènement du web social et d'outils de
                 monitoring pointus couplés à des interfaces web facilement
@@ -43,12 +43,12 @@ const UnitedManagersPage = () => {
                 lancé en 2018.
               </p>
             </div>
-            <div class="column has-text-centered">
+            <div className="column has-text-centered">
               <img
                 src={PhotoEquipe}
                 alt="Équipe Avant-Garde Caennaise by United Managers"
               />
-              <span class="subtitle is-size-6">
+              <span className="subtitle is-size-6">
                 Photo officielle de{' '}
                 <a href="https://www.agcaenfootball.com/" target="_blank">
                   l'équipe de Football de l'Avant-Garde Caennaise
@@ -62,25 +62,25 @@ const UnitedManagersPage = () => {
           </div>
         </div>
       </section>
-      <section class="section ">
-        <div class="container">
-          <div class="columns ">
-            <div class="column">
-              <h2 class="title has-text-centered">Les missions</h2>
+      <section className="section ">
+        <div className="container">
+          <div className="columns ">
+            <div className="column">
+              <h2 className="title has-text-centered">Les missions</h2>
             </div>
-            <div class="column">
-              <h2 class="title has-text-centered">La méthode</h2>
+            <div className="column">
+              <h2 className="title has-text-centered">La méthode</h2>
             </div>
           </div>
-          <hr class="is-marginless" />
+          <hr className="is-marginless" />
         </div>
       </section>
-      <section class="section">
-        <div class="container">
-          <div class="columns is-variable is-8">
-            <div class="column">
+      <section className="section">
+        <div className="container">
+          <div className="columns is-variable is-8">
+            <div className="column">
               <h3>1. Comprendre les attentes</h3>
-              <p class="subtitle">
+              <p className="subtitle">
                 Pourquoi vouloir confier la gestion d'une équipe à une
                 communauté en ligne ?
               </p>
@@ -90,8 +90,8 @@ const UnitedManagersPage = () => {
                 workshops de travail et explorer les idées à mettre en oeuvre.
               </p>
             </div>
-            <div class="column">
-              <h3 class="title">Organiser un workshop</h3>
+            <div className="column">
+              <h3 className="title">Organiser un workshop</h3>
               <p>
                 Un workshop consiste en une session de travail à durée
                 déterminée durant laquelle une ou plusieurs personnes cherchent
@@ -104,12 +104,12 @@ const UnitedManagersPage = () => {
           </div>
         </div>
       </section>
-      <section class="section">
-        <div class="container">
-          <div class="columns is-variable is-8">
-            <div class="column">
+      <section className="section">
+        <div className="container">
+          <div className="columns is-variable is-8">
+            <div className="column">
               <h3>2. Définir des objectifs</h3>
-              <p class="subtitle">
+              <p className="subtitle">
                 Qu'est-ce qu'est United Managers et comment parvenir à ce
                 résultat ?
               </p>
@@ -120,8 +120,8 @@ const UnitedManagersPage = () => {
                 qui compte vraiment.
               </p>
             </div>
-            <div class="column">
-              <h3 class="title">Construire un backlog</h3>
+            <div className="column">
+              <h3 className="title">Construire un backlog</h3>
               <p>
                 Le backlog agile permet de connecter les équipes informatiques
                 aux attentes du client. Il s'agit d'un document unique où toutes
@@ -133,12 +133,12 @@ const UnitedManagersPage = () => {
           </div>
         </div>
       </section>
-      <section class="section">
-        <div class="container">
-          <div class="columns is-variable is-8">
-            <div class="column">
+      <section className="section">
+        <div className="container">
+          <div className="columns is-variable is-8">
+            <div className="column">
               <h3>3. Planifier le projet</h3>
-              <p class="subtitle">
+              <p className="subtitle">
                 Comment exploiter au mieux les ressources à notre disposition ?
               </p>
               <p>
@@ -149,8 +149,8 @@ const UnitedManagersPage = () => {
                 projet plus facile à suivre pour toute l'équipe.
               </p>
             </div>
-            <div class="column">
-              <h3 class="title">Créer des sprints</h3>
+            <div className="column">
+              <h3 className="title">Créer des sprints</h3>
               <p>
                 Un sprint est correspond à une période de temps dédié à
                 l'accomplissement d'un ou plusieurs objectifs. Les sprints
@@ -163,12 +163,12 @@ const UnitedManagersPage = () => {
           </div>
         </div>
       </section>
-      <section class="section">
-        <div class="container">
-          <div class="columns is-variable is-8">
-            <div class="column">
+      <section className="section">
+        <div className="container">
+          <div className="columns is-variable is-8">
+            <div className="column">
               <h3>4. Valider le socle technologique</h3>
-              <p class="subtitle">
+              <p className="subtitle">
                 Quels sont les besoins techniques du projet ?
               </p>
               <p>
@@ -180,8 +180,8 @@ const UnitedManagersPage = () => {
                 spécialisés.
               </p>
             </div>
-            <div class="column">
-              <h3 class="title">Prototyper et itérer</h3>
+            <div className="column">
+              <h3 className="title">Prototyper et itérer</h3>
               <p>
                 Le prototypage permet au client de voir son concept à l'oeuvre
                 de la façon la plus rudimentaire et rapide possible. Pour
@@ -195,12 +195,12 @@ const UnitedManagersPage = () => {
           </div>
         </div>
       </section>
-      <section class="section">
-        <div class="container">
-          <div class="columns is-variable is-8">
-            <div class="column">
+      <section className="section">
+        <div className="container">
+          <div className="columns is-variable is-8">
+            <div className="column">
               <h3>5. Collaborer au Game Design</h3>
-              <p class="subtitle">
+              <p className="subtitle">
                 Comment gamifier pour maximiser la fidélisation ?
               </p>
               <p>
@@ -211,8 +211,8 @@ const UnitedManagersPage = () => {
                 système de récompenses de United Managers
               </p>
             </div>
-            <div class="column">
-              <h3 class="title">Playtester et simuler</h3>
+            <div className="column">
+              <h3 className="title">Playtester et simuler</h3>
               <p>
                 Créer un système jeu avec des objectifs de rétentions implique
                 de tester régulièrement le système en conditions réelles.
@@ -225,12 +225,14 @@ const UnitedManagersPage = () => {
           </div>
         </div>
       </section>
-      <section class="section">
-        <div class="container">
-          <div class="columns is-variable is-8">
-            <div class="column">
+      <section className="section">
+        <div className="container">
+          <div className="columns is-variable is-8">
+            <div className="column">
               <h3>6. Créer un modèle économique</h3>
-              <p class="subtitle">Quelle stratégie de monétisation adopter ?</p>
+              <p className="subtitle">
+                Quelle stratégie de monétisation adopter ?
+              </p>
               <p>
                 La monétisation d'un service en ligne dépend des utilisateurs,
                 leurs habitudes et l'offre du produit. Dans le cas de United
@@ -241,8 +243,8 @@ const UnitedManagersPage = () => {
                 virtuelle.
               </p>
             </div>
-            <div class="column">
-              <h3 class="title">Créer des personas</h3>
+            <div className="column">
+              <h3 className="title">Créer des personas</h3>
               <p>
                 Le modèle économique dépend de la cible visée et des attentes du
                 client. Il a donc fallu se projeter sur le profil des joueurs
@@ -255,12 +257,14 @@ const UnitedManagersPage = () => {
           </div>
         </div>
       </section>
-      <section class="section">
-        <div class="container">
-          <div class="columns is-variable is-8">
-            <div class="column">
+      <section className="section">
+        <div className="container">
+          <div className="columns is-variable is-8">
+            <div className="column">
               <h3>7. Superviser l'UI - UX</h3>
-              <p class="subtitle">Quel contexte pour quelle information ?</p>
+              <p className="subtitle">
+                Quel contexte pour quelle information ?
+              </p>
               <p>
                 L'expérience de l'utilisateur est le point clé d'un projet comme
                 celui de United Managers. Aussi bon soit le concept, une
@@ -269,8 +273,8 @@ const UnitedManagersPage = () => {
                 travail sur l'expérience et les interfaces poussé.
               </p>
             </div>
-            <div class="column">
-              <h3 class="title">Envisager l'expérience comme un flux</h3>
+            <div className="column">
+              <h3 className="title">Envisager l'expérience comme un flux</h3>
               <p>
                 L'ensemble des interfaces et interactions constituent un flux de
                 pensées et d'émotions qu'il nous faut maîtriser à toute les
