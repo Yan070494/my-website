@@ -64,7 +64,7 @@ export default () => (
 
           <Link
             to="/blog"
-            className="navbar-item"
+            className="navbar-item is-hidden"
             activeclassname="is-active navbar-item"
           >
             <span className="icon is-medium blog-color">

@@ -14,25 +14,20 @@ class BlogIndex extends React.Component {
 
     return (
       <div className="content">
-        <Head title="Le Blog - Yanis Abounacer" />
-        <Header />
         <div style={{ background: '#fff' }}>
-          <section className="hero hero-bg is-medium has-background-primary">
+          <section className="hero hero-bg is-fullheight">
+            <div className="hero-head"></div>
+            <Head title="Yanis Abounacer : Chef de Projet, Développeur et Entrepreneur" />
+            <Header active="0" />
             <div className="hero-head"></div>
             <div className="hero-body">
-              <div className="container">
-                <div className="columns">
-                  <div className="column is-half">
-                    <p className="title">Bienvenue sur mon blog !</p>
-                    <p className="subtitle">
-                      Que souhaitez-vous lire aujourd'hui ?
-                    </p>
-                  </div>
-                </div>
+              <div className="container has-text-centered">
+                <p className="title">Cette page est en construction</p>
+                <p className="subtitle">Revenez bientôt ! 😉</p>
               </div>
             </div>
           </section>
-          <section className="section">
+          <section className="section is-hidden">
             <div className="container">
               <div className="wrapper">
                 <div className="column">
@@ -48,7 +43,6 @@ class BlogIndex extends React.Component {
             </div>
           </section>
         </div>
-        <Footer />
       </div>
     )
   }

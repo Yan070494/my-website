@@ -8,8 +8,8 @@ import Head from '../../components/head'
 
 // Images
 
-import HeroBackground from '../../images/projets/ldlc/ldlc-hero.png'
-import PhotoMagasin from '../../images/projets/ldlc/magasin.png'
+import HeroBackground from '../../images/projets/ldlc/ldlc-hero.jpg'
+import PhotoMagasin from '../../images/projets/ldlc/magasin.jpg'
 
 const LDLCPage = () => {
   return (
@@ -25,20 +25,20 @@ const LDLCPage = () => {
           <hr />
           <div className="columns is-variable is-8">
             <div className="column">
-              <p className="is-size-5">
+              <p className="is-size-5-desktop">
                 LDLC est une marque spécialisée dans la vente et le conseil en
                 achats informatiques. Le Groupe LDLC a imaginé une approche
                 cross-canal grâce à son site internet et l'ensemble du réseau de
                 concept stores franchisés en France.
               </p>
-              <p className="is-size-5">
+              <p className="is-size-5-desktop">
                 En tant qu'entrepreneur, j'adhère à la vision qualitative des
                 activités du groupe et porte la responsabilité de l'arrivée de
                 la marque à Caen, en Normandie. Grâce à une relation de
                 partenariat avec le groupe, j'ai pu profiter d'un formidable
                 tremplin et créer ma propre société.
               </p>
-              <p className="is-size-5">
+              <p className="is-size-5-desktop">
                 Plus qu'un lieu de vente, le Concept Store est un lieu de
                 conseil, une zone de réparation et un endroit dédié aux
                 expériences numérique pour tous.
@@ -59,7 +59,10 @@ const LDLCPage = () => {
       </section>
       <section className="section ">
         <div className="container">
-          <div className="columns ">
+          <div className="column is-hidden-desktop is-hidden-tablet">
+            <h2 className="title has-text-centered">La démarche</h2>
+          </div>
+          <div className="columns is-hidden-mobile">
             <div className="column">
               <h2 className="title has-text-centered">Les missions</h2>
             </div>

@@ -19,7 +19,7 @@
 
 .home-desktop .navbar,
 .home-touch .navbar {
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: rgba(255, 255, 255, 0.75);
   backdrop-filter: blur(4px);
 }
 
@@ -58,7 +58,11 @@
 }
 
 .button.yellow-background {
-  background-color: #ffd000;
+  background-color: #ffb900;
+}
+
+.button.green-background {
+  background-color: #00cc6a;
 }
 
 .post h2 {

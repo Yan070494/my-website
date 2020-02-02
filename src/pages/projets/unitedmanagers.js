@@ -8,7 +8,7 @@ import Head from '../../components/head'
 
 // Images
 import PhotoEquipe from '../../images/projets/unitedmanagers/equipe.jpg'
-import HeroBackground from '../../images/projets/unitedmanagers/unitedmanagers-hero.png'
+import HeroBackground from '../../images/projets/unitedmanagers/unitedmanagers-hero.jpg'
 
 //Carousel
 
@@ -26,7 +26,7 @@ const UnitedManagersPage = () => {
           <hr />
           <div className="columns is-variable is-8">
             <div className="column">
-              <p className="is-size-5">
+              <p className="is-size-5-desktop">
                 United Managers est un projet d'envergure à la croisée des
                 chemins entre un réseau social et une simulation sportive. Ici,
                 une communauté d'utilisateurs inscrits prennent les décisions
@@ -35,7 +35,7 @@ const UnitedManagersPage = () => {
                 plus pertinente. Avant, pendant et après le match, les
                 utilisateurs ont toute latitude dans la gestion de l'équipe.
               </p>
-              <p className="is-size-5">
+              <p className="is-size-5-desktop">
                 Le concept avait déjà été expérimenté en 2002 sous un autre nom
                 : le Web Football Club. L'avènement du web social et d'outils de
                 monitoring pointus couplés à des interfaces web facilement
@@ -64,7 +64,10 @@ const UnitedManagersPage = () => {
       </section>
       <section className="section ">
         <div className="container">
-          <div className="columns ">
+          <div className="column is-hidden-desktop is-hidden-tablet">
+            <h2 className="title has-text-centered">La démarche</h2>
+          </div>
+          <div className="columns is-hidden-mobile">
             <div className="column">
               <h2 className="title has-text-centered">Les missions</h2>
             </div>

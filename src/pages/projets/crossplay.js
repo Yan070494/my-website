@@ -8,7 +8,7 @@ import Head from '../../components/head'
 
 // Images
 
-import HeroBackground from '../../images/projets/crossplay/crossplay-hero.png'
+import HeroBackground from '../../images/projets/crossplay/crossplay-hero.jpg'
 
 const CrossPlayPage = () => {
   return (
@@ -24,14 +24,14 @@ const CrossPlayPage = () => {
           <hr />
           <div className="columns is-variable is-8">
             <div className="column is-half">
-              <p className="is-size-5">
+              <p className="is-size-5-desktop">
                 CrossPlay est un site web, dont je suis le fondateur, traitant
                 des jeux vidéo et de la technologie où tous les contributeurs
                 sont des gens comme vous et moi. Pas de journalistes, une ligne
                 éditoriale libre et des opinions qui n'engagent que les auteurs
                 des articles.
               </p>
-              <p className="is-size-5">
+              <p className="is-size-5-desktop">
                 Toute la force du concept réside dans la capacité de l'équipe à
                 produire de nouveaux formats régulièrement à des fins
                 d'expérimentations. Sur les réseaux sociaux, YouTube ou les
@@ -39,7 +39,7 @@ const CrossPlayPage = () => {
                 apprend depuis 3 ans au travers de nouveaux contenus
                 hebdomadaires.
               </p>
-              <p className="is-size-5">
+              <p className="is-size-5-desktop">
                 Aujourd'hui, la plateforme dénombre plus de 12 500 visiteurs
                 chaque année dans le monde entier.
               </p>
@@ -69,7 +69,10 @@ const CrossPlayPage = () => {
       </section>
       <section className="section ">
         <div className="container">
-          <div className="columns ">
+          <div class="column is-hidden-desktop is-hidden-tablet">
+            <h2 className="title has-text-centered">La démarche</h2>
+          </div>
+          <div className="columns is-hidden-mobile">
             <div className="column">
               <h2 className="title has-text-centered">Les missions</h2>
             </div>
