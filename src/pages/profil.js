@@ -6,7 +6,7 @@ import Footer from '../components/footer'
 import Head from '../components/head'
 import Tiles from '../components/tiles'
 import { Link } from 'gatsby'
-import SkillBar from 'react-skillbars'
+import SkillBar from '../components/skillbar'
 
 // Photo de profil
 
@@ -28,86 +28,6 @@ import ProjectLogo from '../images/icons/50px/project.png'
 import ReactLogo from '../images/icons/50px/react.png'
 import VisualStudioLogo from '../images/icons/50px/visualStudio.png'
 import VisualStudioCodeLogo from '../images/icons/50px/visualStudioCode.png'
-
-const skills = [
-  {
-    type: 'HTML/CSS',
-    level: 90,
-    color: {
-      bar: '#0063B1',
-      title: {
-        text: '#fff',
-        background: '#0063B1',
-      },
-    },
-  },
-  {
-    type: 'PHP',
-    level: 80,
-    color: {
-      bar: '#744DA9',
-      title: {
-        text: '#fff',
-        background: '#744DA9',
-      },
-    },
-  },
-  {
-    type: 'MySQL',
-    level: 75,
-    color: {
-      bar: '#FF8C00',
-      title: {
-        text: '#fff',
-        background: '#FF8C00',
-      },
-    },
-  },
-  {
-    type: 'Javascript',
-    level: 70,
-    color: {
-      bar: '#E81123',
-      title: {
-        text: '#fff',
-        background: '#E81123',
-      },
-    },
-  },
-  {
-    type: 'Python',
-    level: 60,
-    color: {
-      bar: '#FFB900',
-      title: {
-        text: '#fff',
-        background: '#FFB900',
-      },
-    },
-  },
-  {
-    type: 'MongoDB',
-    level: 50,
-    color: {
-      bar: '#10893E',
-      title: {
-        text: '#fff',
-        background: '#10893E',
-      },
-    },
-  },
-  {
-    type: 'C#',
-    level: 30,
-    color: {
-      bar: '#00B7C3',
-      title: {
-        text: '#fff',
-        background: '#00B7C3',
-      },
-    },
-  },
-]
 
 const ProfilePage = () => {
   return (
@@ -184,9 +104,9 @@ const ProfilePage = () => {
             </div>
             <div className="column">
               <div className="column is-paddingless">
-                <h2 className="title">Mes compétences</h2>
+                <h2 className="title is-paddingless">Mes compétences</h2>
                 <div id="skills">
-                  <SkillBar skills={skills} />
+                  <SkillBar />
                 </div>
               </div>
               <hr />
