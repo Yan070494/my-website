@@ -1,6 +1,12 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
+const toggleBurger = () => {
+  let burgerIcon = document.getElementById('burger')
+
+  burgerIcon.classList.toggle('is-active')
+}
+
 export default () => (
   <nav className="navbar">
     <div className="container">
@@ -12,13 +18,33 @@ export default () => (
         >
           <span className="is-size-5">Yanis Abounacer</span>
         </Link>
-        <span className="navbar-burger burger" data-target="navbarMenuHeroB">
-          <span></span>
-          <span></span>
-          <span></span>
-        </span>
+
+        <div
+          className="navbar-item is-hidden-desktop"
+          activeclassname="is-active navbar-item is-hidden-desktop"
+        >
+          <Link
+            to="/profil"
+            className="navbar-item"
+            activeclassname="is-active navbar-item"
+          >
+            <span className="icon is-medium profile-color">
+              <i className="fas fa-user-alt"></i>
+            </span>
+          </Link>
+        </div>
+        <div
+          className="navbar-item is-hidden-desktop"
+          activeclassname="is-active navbar-item is-hidden-desktop"
+        >
+          <a href="/projets">
+            <span className="icon is-medium project-color">
+              <i className="fas fa-star"></i>
+            </span>
+          </a>
+        </div>
       </div>
-      <div id="navbarMenuHeroB" className="navbar-menu">
+      <div className="navbar-menu nav-menu">
         <div className="navbar-end">
           <Link
             to="/profil"

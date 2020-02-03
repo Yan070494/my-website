@@ -10,5 +10,6 @@ export default props => (
       src="https://kit.fontawesome.com/0c1f071e61.js"
       crossorigin="anonymous"
     ></script>
+    <script src="../script/toggle-menu.js"></script>
   </Helmet>
 )

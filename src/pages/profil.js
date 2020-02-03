@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './global-style.scss'
 import FontAwesome from 'react-fontawesome'
 import Header from '../components/header'

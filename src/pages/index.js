@@ -52,7 +52,7 @@ const IndexPage = () => {
         <div className="hero-body">
           <div className="container">
             <div className="columns has-text-centered">
-              <div className="column is-half background-blured">
+              <div className="column  background-blured">
                 <p className="title is-size-1 has-text-white">
                   Hello, je suis Yanis !
                 </p>
