@@ -27,6 +27,9 @@ export default props => (
     <meta name="twitter:description" content={props.description} />
     <meta name="twitter:creator" content="@YanisAbounacer" />
 
-    <meta name="twitter:image:src" content="" />
+    <meta
+      name="twitter:image:src"
+      content="https://raw.githubusercontent.com/Yan070494/my-website/master/src/images/twitter-image.png"
+    />
   </Helmet>
 )
