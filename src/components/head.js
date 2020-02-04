@@ -16,7 +16,10 @@ export default props => (
     <meta property="og:url" content="https://www.yanisabounacer.com" />
     <meta property="og:description" content={props.description} />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="" />
+    <meta
+      property="og:image"
+      content="https://raw.githubusercontent.com/Yan070494/my-website/master/src/images/facebook-og-image.png"
+    />
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@YanisAbounacer" />
