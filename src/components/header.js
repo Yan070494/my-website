@@ -1,12 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-const toggleBurger = () => {
-  let burgerIcon = document.getElementById('burger')
-
-  burgerIcon.classList.toggle('is-active')
-}
-
 export default () => (
   <nav className="navbar">
     <div className="container">

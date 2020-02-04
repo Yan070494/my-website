@@ -10,7 +10,10 @@ const IndexPage = () => {
     <div className="content">
       <section className="hero hero-bg home-desktop is-fullheight is-hidden-touch">
         <div className="hero-head"></div>
-        <Head title="Yanis Abounacer : Chef de Projet, Développeur et Entrepreneur" />
+        <Head
+          title="Yanis Abounacer | Chef de Projet, Développeur et Entrepreneur"
+          description="Parce que chaque projet est unique, j'accompagne les porteurs de projet dans leurs démarches de l'idée jusqu'à la concrétisation. Curieux par nature, j'aime sortir de ma zone de confort et découvrir de nouveaux univers."
+        />
         <Header active="0" />
         <div className="hero-body">
           <div className="container">

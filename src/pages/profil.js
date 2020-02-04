@@ -30,7 +30,10 @@ import VisualStudioCodeLogo from '../images/icons/50px/visualStudioCode.png'
 const ProfilePage = () => {
   return (
     <div className="content">
-      <Head title="Mon profil - Yanis Abounacer" />
+      <Head
+        title="Mon profil - Yanis Abounacer | Chef de Projet, Développeur et Entrepreneur"
+        description="Cette page regroupe ce qu'il faut savoir à mon sujet : mon parcours scolaire et professionnel, mes compétences et mes activités."
+      />
       <Header />
       <img className="is-hidden-touch" src={PortraitProfil} />
       <img className="is-hidden-desktop" src={PortraitProfilMobile} />

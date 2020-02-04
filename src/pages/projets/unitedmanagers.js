@@ -15,7 +15,10 @@ import HeroBackground from '../../images/projets/unitedmanagers/unitedmanagers-h
 const UnitedManagersPage = () => {
   return (
     <div className="content">
-      <Head title="United Managers : l'application de coaching collaborative - Projet - Yanis Abounacer" />
+      <Head
+        title="United Managers - Projet - Yanis Abounacer | Chef de Projet, Développeur et Entrepreneur"
+        description="Plateforme de coaching collaborative, United Managers allie la passion du sport à l'intelligence collective au sein d'une web application."
+      />
       <Header />
       <section>
         <img src={HeroBackground} />

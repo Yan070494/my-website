@@ -18,7 +18,10 @@ import UnitedManagersMiniature from '../images/projets/unitedmanagers.jpg'
 const ProjectPage = () => {
   return (
     <div className="content">
-      <Head title="Mes projets - Yanis Abounacer" />
+      <Head
+        title="Mes projets - Yanis Abounacer | Chef de Projet, Développeur et Entrepreneur"
+        description="Chaque projet est une nouvelle expérience. Mon profil de technicien et de joueur me permet d'adopter une autre vision différente. Découvrez certains des projets auxquels j'ai participé"
+      />
       <Header />
       <img className="is-hidden-touch" src={Tableau} alt="Tableau" />
       <img className="is-hidden-desktop" src={TableauMobile} alt="Tableau" />
