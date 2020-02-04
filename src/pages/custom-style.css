@@ -232,3 +232,9 @@
 .value-100 {
   width: 100%;
 }
+
+/* Signs */
+
+.direction-signs {
+  font-size: 200px;
+}

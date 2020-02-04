@@ -29,7 +29,7 @@ export default () => (
             activeclassname="is-active navbar-item"
           >
             <span className="icon is-medium profile-color">
-              <i className="fas fa-user-alt"></i>
+              <i className="fas fa-user-alt "></i>
             </span>
           </Link>
         </div>
@@ -73,7 +73,7 @@ export default () => (
                 </span>
                 <span>United Managers</span>
               </a>
-              <a className="navbar-item" href="/projets/ldlc/">
+              <a className="navbar-item is-hidden" href="/projets/ldlc/">
                 <span className="icon is-medium">
                   <i className="fas fa-desktop"></i>
                 </span>

@@ -45,9 +45,9 @@ const ProjectPage = () => {
             Pour des raisons de confidentialité, tous ne peuvent pas figurer
             ici. Trois d'entre eux sont évoqués en détail :
           </p>
-          <div className="columns is-variable is-8">
+          <div className="columns is-variable is-8 ">
             <p>&nbsp;</p>
-            <div className="column">
+            <div className="column is-hidden">
               <Link to="/projets/ldlc">
                 <div className="has-text-centered">
                   <img src={LDLCMiniature} alt="Logo de LDLC" />

@@ -54,13 +54,9 @@ const CrossPlayPage = () => {
                 allowFullScreen
               ></iframe>
               <span className="subtitle is-size-6">
-                Photo officielle de{' '}
-                <a href="https://www.agcaenfootball.com/">
-                  l'équipe de Football de l'Avant-Garde Caennaise
-                </a>{' '}
-                by{' '}
-                <a href="https://app.unitedmanagers.com/" target="_blank">
-                  United Managers
+                Trailer de lancement de{' '}
+                <a href="https://www.crossplay.fr" target="_blank">
+                  CrossPlay
                 </a>
               </span>
             </div>
