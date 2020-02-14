@@ -14,35 +14,27 @@ class BlogIndex extends React.Component {
 
     return (
       <div className="content">
-        <div style={{ background: '#fff' }}>
-          <section className="hero hero-bg is-fullheight">
-            <div className="hero-head"></div>
-            <Head title="Yanis Abounacer : Chef de Projet, Développeur et Entrepreneur" />
-            <Header active="0" />
-            <div className="hero-head"></div>
-            <div className="hero-body">
-              <div className="container has-text-centered">
-                <p className="title">Cette page est en construction</p>
-                <p className="subtitle">Revenez bientôt ! 😉</p>
+        <Head title="Yanis Abounacer : Chef de Projet, Développeur et Entrepreneur" />
+        <Header active="0" />
+        <section className="hero blog-bg is-medium ">
+          <div className="hero-head"></div>
+          <div className="hero-body"></div>
+        </section>
+        <section className="section">
+          <div className="container">
+            <div className="wrapper">
+              <div className="column">
+                {posts.map(({ node }) => {
+                  return (
+                    <div className="column" key={node.slug}>
+                      <ArticlePreview article={node} />
+                    </div>
+                  )
+                })}
               </div>
             </div>
-          </section>
-          <section className="section is-hidden">
-            <div className="container">
-              <div className="wrapper">
-                <div className="column">
-                  {posts.map(({ node }) => {
-                    return (
-                      <div className="column" key={node.slug}>
-                        <ArticlePreview article={node} />
-                      </div>
-                    )
-                  })}
-                </div>
-              </div>
-            </div>
-          </section>
-        </div>
+          </div>
+        </section>
       </div>
     )
   }

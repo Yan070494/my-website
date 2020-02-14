@@ -37,6 +37,16 @@ export default () => (
             </span>
           </a>
         </div>
+        <div
+          className="navbar-item is-hidden-desktop"
+          activeclassname="is-active navbar-item is-hidden-desktop"
+        >
+          <a href="/projets">
+            <span className="icon is-medium blog-color">
+              <i className="fas fa-comment-dots"></i>
+            </span>
+          </a>
+        </div>
       </div>
       <div className="navbar-menu nav-menu">
         <div className="navbar-end">
@@ -84,7 +94,7 @@ export default () => (
 
           <Link
             to="/blog"
-            className="navbar-item is-hidden"
+            className="navbar-item"
             activeclassname="is-active navbar-item"
           >
             <span className="icon is-medium blog-color">

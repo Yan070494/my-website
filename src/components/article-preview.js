@@ -4,8 +4,19 @@ import Img from 'gatsby-image'
 
 export default ({ article }) => (
   <div className="columns box is-paddingless is-marginless is-vcentered">
-    <div className="column is-one-third is-paddingless">
-      <Img className="image is16-by-9" alt="" fluid={article.heroImage.fluid} />
+    <div className="column is-one-third is-paddingless is-hidden-mobile is-hidden-fullhd">
+      <Img
+        className="image is16-by-9"
+        alt="Photo de couverture"
+        fluid={article.heroImage.fluid}
+      />
+    </div>
+    <div className="column is-one-third is-paddingless is-hidden-widescreen-only is-hidden-desktop-only is-hidden-tablet-only">
+      <Img
+        className="image is16-by-9 "
+        alt="Photo de couverture"
+        fluid={article.heroImage.fluid}
+      />
     </div>
     <div className="column">
       <h3 className="title">
@@ -21,6 +32,7 @@ export default ({ article }) => (
         dangerouslySetInnerHTML={{
           __html: article.description.childMarkdownRemark.html,
         }}
+        className="is-hidden-mobile is-hidden-tablet-only is-hidden-desktop-only is-hidden-widescreen-only"
       />
 
       {article.tags &&
