@@ -12,6 +12,12 @@
   background-size: cover;
 }
 
+.background-blured {
+  background-color: rgba(0, 120, 215, 0.75);
+  backdrop-filter: blur(5px);
+  box-shadow: 0 0 20px grey;
+}
+
 .home-touch {
   background-image: url('../images/home-mobile-background.jpg');
   background-size: cover;
@@ -19,13 +25,14 @@
 
 .home-desktop .navbar,
 .home-touch .navbar {
-  background-color: rgba(255, 255, 255, 0.75);
+  background-color: rgba(255, 255, 255, 0.8);
   backdrop-filter: blur(4px);
 }
 
 .steam-icon {
   background: -webkit-linear-gradient(#111d2e, #1387b8);
   -webkit-background-clip: text;
+  background-clip: none;
   -webkit-text-fill-color: transparent;
 }
 

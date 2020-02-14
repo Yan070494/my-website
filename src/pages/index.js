@@ -18,7 +18,8 @@ const IndexPage = () => {
         <div className="hero-body">
           <div className="container">
             <div className="columns">
-              <div className="column is-half background-blured">
+              <div className="column is-half is-5 background-blured has-text-centered">
+                <div className="column"></div>
                 <p className="title is-size-1 has-text-white">
                   Hello, je suis Yanis !
                 </p>
@@ -43,6 +44,7 @@ const IndexPage = () => {
                     <span>&nbsp;</span>Mes projets
                   </button>
                 </Link>
+                <div className="column"></div>
               </div>
             </div>
           </div>
@@ -55,7 +57,7 @@ const IndexPage = () => {
         <div className="hero-body">
           <div className="container">
             <div className="columns has-text-centered">
-              <div className="column  background-blured">
+              <div className="column">
                 <p className="title is-size-1 has-text-white">
                   Hello, je suis Yanis !
                 </p>

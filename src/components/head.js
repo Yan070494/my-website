@@ -8,7 +8,7 @@ export default props => (
     <title>{props.title}</title>
     <script
       src="https://kit.fontawesome.com/0c1f071e61.js"
-      crossorigin="samesite"
+      crossorigin="SameSite"
     ></script>
 
     <meta property="og:title" content={props.title} />

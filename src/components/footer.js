@@ -28,7 +28,7 @@ export default () => (
         <div className="column is-paddingless has-text-centered is-4">
           <h4>Envie de discuter ?</h4>
           <button className="button">
-            <a href="mailto:yanis.abounacer@outlook.fr">
+            <a href="mailto:mail@yanisabounacer.com">
               Laissez-moi un message !
             </a>
           </button>
