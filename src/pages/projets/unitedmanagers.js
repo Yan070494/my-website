@@ -18,8 +18,8 @@ const UnitedManagersPage = () => {
       <Head
         title="United Managers - Projet - Yanis Abounacer | Chef de Projet, Développeur et Entrepreneur"
         description="Plateforme de coaching collaborative, United Managers allie la passion du sport à l'intelligence collective au sein d'une web application."
-        image-fb=""
-        image-twitter=""
+        image-fb="https://github.com/Yan070494/my-website/raw/develop/src/images/projets/unitedmanagers/unitedmanagers-facebook-og-image.png"
+        image-twitter="https://github.com/Yan070494/my-website/raw/develop/src/images/projets/unitedmanagers/unitedmanagers-twitter-image.png"
       />
       <Header />
       <section>

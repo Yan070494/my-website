@@ -19,7 +19,12 @@ class BlogPostTemplate extends React.Component {
 
     return (
       <div>
-        <Head />
+        <Head
+          title={`${post.title} | ${siteTitle}`}
+          description="Un article à lire sur yanisabounacer.com"
+          image-fb={post.heroImage.fluid}
+          image-twitter={post.heroImage.fluid}
+        />
         <Header />
         <div className={heroStyles.hero}>
           <Img
@@ -31,8 +36,6 @@ class BlogPostTemplate extends React.Component {
         <section className="section">
           <div className="container post">
             <div style={{ background: '#fff' }}>
-              <Helmet title={`${post.title} | ${siteTitle}`} />
-
               <div className="wrapper">
                 <h1 className="title is-size-1-desktop">{post.title}</h1>
                 <p

@@ -21,8 +21,8 @@ const ProjectPage = () => {
       <Head
         title="Mes projets - Yanis Abounacer | Chef de Projet, Développeur et Entrepreneur"
         description="Chaque projet est une nouvelle expérience. Mon profil de technicien et de joueur me permet d'adopter une autre vision différente. Découvrez certains des projets auxquels j'ai participé"
-        image-fb=""
-        image-twitter=""
+        image-fb="https://github.com/Yan070494/my-website/raw/develop/src/images/projets/projets-facebook-og-image.jpg"
+        image-twitter="https://github.com/Yan070494/my-website/raw/develop/src/images/projets/projets-twitter-image.jpg"
       />
       <Header />
       <img className="is-hidden-touch" src={Tableau} alt="Tableau" />
