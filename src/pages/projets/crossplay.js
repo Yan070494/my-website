@@ -16,6 +16,8 @@ const CrossPlayPage = () => {
       <Head
         title="CrossPlay - Projet - Yanis Abounacer | Chef de Projet, Développeur et Entrepreneur"
         description="Comment bâtir un site d'opinion avec l'aide de contributeurs passionnés et bénévoles ? Voici la méthodologie que j'ai choisie."
+        image-fb=""
+        image-twitter=""
       />
       <Header />
       <section>

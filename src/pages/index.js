@@ -13,6 +13,8 @@ const IndexPage = () => {
         <Head
           title="Yanis Abounacer | Chef de Projet, Développeur et Entrepreneur"
           description="Parce que chaque projet est unique, j'accompagne les porteurs de projet dans leurs démarches de l'idée jusqu'à la concrétisation. Curieux par nature, j'aime sortir de ma zone de confort et découvrir de nouveaux univers."
+          image-fb="https://raw.githubusercontent.com/Yan070494/my-website/master/src/images/facebook-og-image.png"
+          image-twitter="https://raw.githubusercontent.com/Yan070494/my-website/master/src/images/twitter-image.png"
         />
         <Header active="0" />
         <div className="hero-body">
