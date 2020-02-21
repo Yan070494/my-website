@@ -16,9 +16,16 @@ class BlogIndex extends React.Component {
       <div className="content">
         <Head title="Yanis Abounacer : Chef de Projet, Développeur et Entrepreneur" />
         <Header active="0" />
-        <section className="hero blog-bg is-medium ">
+        <section className="hero blog-hero blog-bg is-medium">
           <div className="hero-head"></div>
-          <div className="hero-body"></div>
+          <div className="hero-body">
+            <div className="columns">
+              <div className="column is-5"></div>
+              <h1 className="title column has-text-centered is-2 is-marginless">
+                Le Blog
+              </h1>
+            </div>
+          </div>
         </section>
         <section className="section">
           <div className="container">

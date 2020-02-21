@@ -46,7 +46,7 @@ const ProjectPage = () => {
           <p className="is-size-4-desktop">
             Depuis 2013, j'accompagne et mène des projets de tous les horizons.
             Pour des raisons de confidentialité, tous ne peuvent pas figurer
-            ici. Trois d'entre eux sont évoqués en détail :
+            ici. Deux d'entre eux sont évoqués en détail :
           </p>
           <div className="columns is-variable is-8 ">
             <p>&nbsp;</p>

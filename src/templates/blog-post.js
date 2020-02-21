@@ -10,6 +10,7 @@ import '../pages/custom-style.css'
 import FontAwesome from 'react-fontawesome'
 import Head from '../components/head'
 import heroStyles from '../components/hero.module.css' // Nécessaire pour l'affichage des billets de blog
+import LazyLoad from 'react-lazy-load'
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -20,29 +21,32 @@ class BlogPostTemplate extends React.Component {
       <div>
         <Head />
         <Header />
-        <section class="section">
-          <div class="container">
+        <div className={heroStyles.hero}>
+          <Img
+            className={heroStyles.heroImage}
+            alt={post.title}
+            fluid={post.heroImage.fluid}
+          />
+        </div>
+        <section className="section">
+          <div className="container post">
             <div style={{ background: '#fff' }}>
               <Helmet title={`${post.title} | ${siteTitle}`} />
-              <div className={heroStyles.hero}>
-                <Img
-                  className={heroStyles.heroImage}
-                  alt={post.title}
-                  fluid={post.heroImage.fluid}
-                />
-              </div>
+
               <div className="wrapper">
-                <h1 class="title is-1">{post.title}</h1>
+                <h1 className="title is-size-1-desktop">{post.title}</h1>
                 <p
-                  class="subtitle is-6"
+                  className="subtitle is-size-6"
                   style={{
                     display: 'block',
                   }}
                 >
-                  Publié le {post.publishDate}
+                  Publié le {post.publishDate} par{' '}
+                  <a href="https://www.twitter.com/yanisabounacer">
+                    Yanis Abounacer
+                  </a>
                 </p>
                 <div
-                  class="post"
                   dangerouslySetInnerHTML={{
                     __html: post.body.childMarkdownRemark.html,
                   }}
