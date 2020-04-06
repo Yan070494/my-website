@@ -33,8 +33,8 @@ const ProfilePage = () => {
       <Head
         title="Mon profil - Yanis Abounacer | Chef de Projet, Développeur et Entrepreneur"
         description="Cette page regroupe ce qu'il faut savoir à mon sujet : mon parcours scolaire et professionnel, mes compétences et mes activités."
-        image-fb="https://raw.githubusercontent.com/Yan070494/my-website/master/src/images/facebook-og-image.png"
-        image-twitter="https://raw.githubusercontent.com/Yan070494/my-website/master/src/images/twitter-image.png"
+        image_fb="https://raw.githubusercontent.com/Yan070494/my-website/master/src/images/facebook-og-image.png"
+        image_twitter="https://raw.githubusercontent.com/Yan070494/my-website/master/src/images/twitter-image.png"
       />
       <Header />
       <img className="is-hidden-touch" src={PortraitProfil} />

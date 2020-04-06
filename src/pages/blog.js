@@ -17,8 +17,8 @@ class BlogIndex extends React.Component {
         <Head
           title="Le Blog - Yanis Abounacer : Chef de Projet, Développeur et Entrepreneur"
           description=""
-          image-fb="https://github.com/Yan070494/my-website/raw/develop/src/images/blog-facebook-og-image.png"
-          image-twitter="https://github.com/Yan070494/my-website/raw/develop/src/images/blog-twitter-image.png"
+          image_fb="https://github.com/Yan070494/my-website/raw/develop/src/images/blog-facebook-og-image.png"
+          image_twitter="https://github.com/Yan070494/my-website/raw/develop/src/images/blog-twitter-image.png"
         />
         <Header active="0" />
         <section className="hero blog-hero blog-bg is-medium">
