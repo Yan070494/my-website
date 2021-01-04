@@ -36,7 +36,7 @@ export default () => (
         <div className="column is-4 is-paddingless has-text-centered">
           <h6>Mes pages de joueur</h6>
           <a
-            href="https://www.gamertagnation.com/members/siivo/"
+            href="https://www.gamertagnation.com/member.php?u=9671&do=gamertag"
             target="_blank"
           >
             <span className="icon xbox-icon is-large is-size-2">

@@ -15,7 +15,7 @@ const ErrorPage = () => {
         <div className="hero-body">
           <div className="container">
             <div className="columns is-vcentered has-text-centered">
-              <div className="column background-blured">
+              <div className="column">
                 <span className="icon is-medium project-color direction-signs ">
                   <i class="fas fa-map-signs"></i>
                 </span>
